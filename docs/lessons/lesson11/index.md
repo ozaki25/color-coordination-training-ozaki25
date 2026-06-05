@@ -71,6 +71,8 @@ PCCSでは主に12のトーンが設定されています。
 
 ### 有彩色のトーン
 
+<!-- textlint-disable ja-technical-writing/ja-unnatural-alphabet -->
+
 | トーン名 | 読み方 | 明度 | 彩度 | 代表的な印象・イメージ |
 |---------|--------|------|------|----------------------|
 | vivid | ビビッド | 中〜高 | 最高 | 鮮やか・力強い・元気 |
@@ -85,6 +87,8 @@ PCCSでは主に12のトーンが設定されています。
 | light grayish | ライトグレイッシュ（ltg） | 高 | 最低 | 白みがかった・静かな |
 | grayish | グレイッシュ（g） | 中 | 最低 | グレーがかった・無機質な |
 | dark grayish | ダークグレイッシュ（dkg） | 低 | 最低 | 暗くくすんだ・渋い |
+
+<!-- textlint-enable ja-technical-writing/ja-unnatural-alphabet -->
 
 ### 無彩色のトーン
 
