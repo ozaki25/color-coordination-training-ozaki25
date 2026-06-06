@@ -53,7 +53,6 @@ export default withPwa(
       themeConfig: {
         nav: [
           { text: "ホーム", link: "/" },
-          { text: "学習プラン", link: "/study-plan/" },
           { text: "ドリル", link: "/quiz/" },
         ],
         sidebar: {
