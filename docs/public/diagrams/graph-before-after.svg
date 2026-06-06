@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">折れ線グラフのbefore/after</title>
+  <desc id="desc">左のBeforeは赤線と緑線だけで2系列を区別したグラフで凡例も離れた位置にしかなく、色覚特性者には判別が困難。右のAfterは色相を青とオレンジに変え、線端に直接「東京」「大阪」と書き、丸と三角のマーカーと実線・破線で区別している。</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .panel { fill: #f8fafc; stroke: #cbd5e1; }
+    .t-h1 { fill: #1e293b; }
+    .t-h2 { fill: #1e293b; }
+    .t-h3 { fill: #64748b; }
+    .t-muted { fill: #94a3b8; }
+    .axis { stroke: #475569; }
+    .grid { stroke: #e2e8f0; }
+    .ng-tag { fill: #b91c1c; }
+    .ok-tag { fill: #047857; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .panel { fill: #2a2a2a; stroke: #475569; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h2 { fill: #e2e8f0; }
+      .t-h3 { fill: #94a3b8; }
+      .t-muted { fill: #64748b; }
+      .axis { stroke: #94a3b8; }
+      .grid { stroke: #334155; }
+      .ng-tag { fill: #fca5a5; }
+      .ok-tag { fill: #6ee7b7; }
+    }
+  </style>
+  <rect class="bg" width="760" height="380"/>
+  <text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" class="t-h1">折れ線グラフの改善：Before / After</text>
+
+  <!-- Before パネル -->
+  <g transform="translate(20,50)">
+    <rect class="panel" width="340" height="300" rx="8"/>
+    <text x="170" y="26" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" class="ng-tag">Before（色だけで区別）</text>
+
+    <!-- 軸 -->
+    <line x1="50" y1="240" x2="320" y2="240" class="axis" stroke-width="1.5"/>
+    <line x1="50" y1="60" x2="50" y2="240" class="axis" stroke-width="1.5"/>
+    <!-- グリッド -->
+    <line x1="50" y1="100" x2="320" y2="100" class="grid"/>
+    <line x1="50" y1="140" x2="320" y2="140" class="grid"/>
+    <line x1="50" y1="180" x2="320" y2="180" class="grid"/>
+    <!-- X 軸ラベル -->
+    <g font-family="sans-serif" font-size="11" class="t-h3" text-anchor="middle">
+      <text x="80" y="258">4月</text>
+      <text x="130" y="258">5月</text>
+      <text x="180" y="258">6月</text>
+      <text x="230" y="258">7月</text>
+      <text x="280" y="258">8月</text>
+    </g>
+
+    <!-- 系列1 赤 -->
+    <polyline points="80,200 130,160 180,120 230,150 280,80"
+              fill="none" stroke="#e60000" stroke-width="2.5"/>
+    <!-- 系列2 緑（赤と似た明度であえて区別しにくく） -->
+    <polyline points="80,170 130,180 180,140 230,100 280,160"
+              fill="none" stroke="#00a040" stroke-width="2.5"/>
+
+    <!-- 凡例（離れた位置・色だけ）-->
+    <g transform="translate(60,72)" font-family="sans-serif" font-size="11" class="t-h2">
+      <line x1="0" y1="0" x2="18" y2="0" stroke="#e60000" stroke-width="2.5"/>
+      <text x="24" y="4">系列A</text>
+      <line x1="80" y1="0" x2="98" y2="0" stroke="#00a040" stroke-width="2.5"/>
+      <text x="104" y="4">系列B</text>
+    </g>
+
+    <text x="170" y="288" text-anchor="middle" font-family="sans-serif" font-size="11" class="ng-tag">P型・D型には2本が似て見え判別困難</text>
+  </g>
+
+  <!-- After パネル -->
+  <g transform="translate(400,50)">
+    <rect class="panel" width="340" height="300" rx="8"/>
+    <text x="170" y="26" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" class="ok-tag">After（色＋形＋線種＋直接ラベル）</text>
+
+    <!-- 軸 -->
+    <line x1="50" y1="240" x2="320" y2="240" class="axis" stroke-width="1.5"/>
+    <line x1="50" y1="60" x2="50" y2="240" class="axis" stroke-width="1.5"/>
+    <!-- グリッド -->
+    <line x1="50" y1="100" x2="320" y2="100" class="grid"/>
+    <line x1="50" y1="140" x2="320" y2="140" class="grid"/>
+    <line x1="50" y1="180" x2="320" y2="180" class="grid"/>
+    <!-- X 軸ラベル -->
+    <g font-family="sans-serif" font-size="11" class="t-h3" text-anchor="middle">
+      <text x="80" y="258">4月</text>
+      <text x="130" y="258">5月</text>
+      <text x="180" y="258">6月</text>
+      <text x="230" y="258">7月</text>
+      <text x="280" y="258">8月</text>
+    </g>
+
+    <!-- 系列1 濃い青 実線 + 円マーカー -->
+    <polyline points="80,200 130,160 180,120 230,150 280,80"
+              fill="none" stroke="#1e40af" stroke-width="2.5"/>
+    <g fill="#1e40af">
+      <circle cx="80" cy="200" r="5"/>
+      <circle cx="130" cy="160" r="5"/>
+      <circle cx="180" cy="120" r="5"/>
+      <circle cx="230" cy="150" r="5"/>
+      <circle cx="280" cy="80" r="5"/>
+    </g>
+    <text x="287" y="83" font-family="sans-serif" font-size="12" font-weight="700" fill="#1e40af">東京</text>
+
+    <!-- 系列2 オレンジ 破線 + 三角マーカー -->
+    <polyline points="80,170 130,180 180,140 230,100 280,160"
+              fill="none" stroke="#ea580c" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <g fill="#ea580c">
+      <polygon points="80,164 86,176 74,176"/>
+      <polygon points="130,174 136,186 124,186"/>
+      <polygon points="180,134 186,146 174,146"/>
+      <polygon points="230,94 236,106 224,106"/>
+      <polygon points="280,154 286,166 274,166"/>
+    </g>
+    <text x="287" y="163" font-family="sans-serif" font-size="12" font-weight="700" fill="#ea580c">大阪</text>
+
+    <text x="170" y="288" text-anchor="middle" font-family="sans-serif" font-size="11" class="ok-tag">色相差＋マーカー＋線種＋直接ラベルで誰でも区別可能</text>
+  </g>
+</svg>
