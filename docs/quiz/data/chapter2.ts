@@ -173,7 +173,7 @@ export const chapter2: Quiz[] = [
     id: "q113",
     lesson: "lesson07",
     difficulty: "normal",
-    question: "網膜にある視細胞のうち、色を見分け、明るい場所で働き、黄斑に集中している細胞はどれですか。",
+    question: "網膜にある視細胞のうち、色を見分け、明るい場所で働き、黄斑（特に中心窩）に多く分布する細胞はどれですか。",
     choices: [
       "桿体",
       "錐体",

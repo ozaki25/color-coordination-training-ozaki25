@@ -10,7 +10,7 @@
 
 - **28 レッスン**: 公式テキスト全 6 章をカバー（1 レッスン 15 分程度）
 - **ドリル**: 章別出題・ランダム・復習に対応。回答履歴をブラウザに保存
-- **11 種類の図版**: 可視光スペクトル・色相環・分光感度曲線など、色そのものを示す SVG 図解
+- **12 種類の図版**: 可視光スペクトル・色相環・分光感度曲線など、色そのものを示す SVG 図解
 
 ## 技術スタック
 
@@ -45,7 +45,7 @@ npm run pwa:icons      # logo.svg から PWA アイコンを生成
 docs/
   index.md                     トップページ
   introduction/index.md        はじめに（試験概要・学習の進め方）
-  lessons/lessonNN/index.md    各レッスン（lesson01〜lesson27）
+  lessons/lessonNN/index.md    各レッスン（lesson01〜lesson28）
   quiz/                        ドリル（4 択問題）
     types.ts                   型定義・章メタ情報
     data/chapterN.ts           章ごとの問題データ
