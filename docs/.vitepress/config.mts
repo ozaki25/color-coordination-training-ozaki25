@@ -16,6 +16,9 @@ export default withPwa(
         hostname: "https://color-coordination-test-training-ozaki25.vercel.app",
       },
       head: [
+        ["link", { rel: "icon", href: "/favicon.ico", sizes: "48x48" }],
+        ["link", { rel: "icon", href: "/logo.svg", type: "image/svg+xml" }],
+        ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon-180x180.png" }],
         ["meta", { name: "theme-color", content: "#c2185b" }],
         ["meta", { name: "author", content: "ozaki25" }],
         ["meta", { property: "og:type", content: "website" }],
