@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-labelledby="title desc">
+  <title id="title">色の三属性</title>
+  <desc id="desc">色相・明度・彩度の3つの属性を帯で示した図。色相は色みの違い、明度は明るさ、彩度は鮮やかさを表す。</desc>
+  <rect width="800" height="260" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="hue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e60000"/>
+      <stop offset="17%" stop-color="#ff9900"/>
+      <stop offset="33%" stop-color="#e6e600"/>
+      <stop offset="50%" stop-color="#00b800"/>
+      <stop offset="67%" stop-color="#0080ff"/>
+      <stop offset="83%" stop-color="#5a00cc"/>
+      <stop offset="100%" stop-color="#e60000"/>
+    </linearGradient>
+    <linearGradient id="value" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="chroma" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#808080"/>
+      <stop offset="100%" stop-color="#0066ff"/>
+    </linearGradient>
+  </defs>
+
+  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#1e293b">色の三属性</text>
+
+  <!-- 色相 -->
+  <text x="60" y="68" font-family="sans-serif" font-size="15" font-weight="700" fill="#1e293b">色相（Hue）</text>
+  <text x="60" y="86" font-family="sans-serif" font-size="12" fill="#64748b">色みの違い（赤・橙・黄・緑・青・紫…）</text>
+  <rect x="320" y="56" width="420" height="34" rx="4" fill="url(#hue)" stroke="#94a3b8"/>
+
+  <!-- 明度 -->
+  <text x="60" y="138" font-family="sans-serif" font-size="15" font-weight="700" fill="#1e293b">明度（Value）</text>
+  <text x="60" y="156" font-family="sans-serif" font-size="12" fill="#64748b">明るさ・暗さ（左=黒 → 右=白）</text>
+  <rect x="320" y="126" width="420" height="34" rx="4" fill="url(#value)" stroke="#94a3b8"/>
+
+  <!-- 彩度 -->
+  <text x="60" y="208" font-family="sans-serif" font-size="15" font-weight="700" fill="#1e293b">彩度（Chroma）</text>
+  <text x="60" y="226" font-family="sans-serif" font-size="12" fill="#64748b">鮮やかさ（左=灰 → 右=純色）</text>
+  <rect x="320" y="196" width="420" height="34" rx="4" fill="url(#chroma)" stroke="#94a3b8"/>
+
+  <text x="400" y="252" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#94a3b8">色のUDでは、特に「明度」の差が見やすさを大きく左右します</text>
+</svg>

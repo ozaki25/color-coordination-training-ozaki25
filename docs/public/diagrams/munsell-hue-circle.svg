@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" role="img" aria-labelledby="title desc">
+  <title id="title">マンセル 10 色相環</title>
+  <desc id="desc">マンセルの基本5色相（R赤・Y黄・G緑・B青・P紫）と中間5色相（YR・GY・BG・PB・RP）を円環に並べた図。対角に位置する色が補色の関係になる。</desc>
+  <rect width="300" height="340" fill="#ffffff"/>
+  <text x="150" y="24" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#1e293b">マンセル 10 色相環</text>
+
+  <g transform="translate(0,28)">
+    <path d="M150,30 A120 120 0 0 1 220.54,52.92 L182.33,105.50 A55 55 0 0 0 150,95 Z" fill="#e60026"/>
+    <path d="M220.54,52.92 A120 120 0 0 1 264.13,112.92 L202.31,133.00 A55 55 0 0 0 182.33,105.50 Z" fill="#f07800"/>
+    <path d="M264.13,112.92 A120 120 0 0 1 264.13,196.08 L202.31,167.00 A55 55 0 0 0 202.31,133.00 Z" fill="#f5d000"/>
+    <path d="M264.13,196.08 A120 120 0 0 1 220.54,247.08 L182.33,194.50 A55 55 0 0 0 202.31,167.00 Z" fill="#88c000"/>
+    <path d="M220.54,247.08 A120 120 0 0 1 150,270 L150,205 A55 55 0 0 0 182.33,194.50 Z" fill="#00a040"/>
+    <path d="M150,270 A120 120 0 0 1 79.46,247.08 L117.67,194.50 A55 55 0 0 0 150,205 Z" fill="#00a890"/>
+    <path d="M79.46,247.08 A120 120 0 0 1 35.87,187.08 L97.69,167.00 A55 55 0 0 0 117.67,194.50 Z" fill="#008cc8"/>
+    <path d="M35.87,187.08 A120 120 0 0 1 35.87,112.92 L97.69,133.00 A55 55 0 0 0 97.69,167.00 Z" fill="#4858a8"/>
+    <path d="M35.87,112.92 A120 120 0 0 1 79.46,52.92 L117.67,105.50 A55 55 0 0 0 97.69,133.00 Z" fill="#8848a0"/>
+    <path d="M79.46,52.92 A120 120 0 0 1 150,30 L150,95 A55 55 0 0 0 117.67,105.50 Z" fill="#c83080"/>
+
+    <g font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle"
+       paint-order="stroke" stroke="#ffffff" stroke-width="2.5" fill="#1e293b">
+      <text x="177" y="71">R</text>
+      <text x="221" y="103">YR</text>
+      <text x="238" y="155">Y</text>
+      <text x="221" y="206">GY</text>
+      <text x="177" y="238">G</text>
+      <text x="123" y="238">BG</text>
+      <text x="79" y="206">B</text>
+      <text x="62" y="155">PB</text>
+      <text x="79" y="103">P</text>
+      <text x="123" y="71">RP</text>
+    </g>
+  </g>
+
+  <text x="150" y="332" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#94a3b8">対角どうしが補色（例：R と BG）</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" role="img" aria-labelledby="title desc">
+  <title id="title">可視光線のスペクトル</title>
+  <desc id="desc">波長約380nmの紫から780nmの赤まで、波長と色の対応を示した帯。短波長側が紫・青、長波長側が赤。</desc>
+  <rect width="800" height="180" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7b00b3"/>
+      <stop offset="13%" stop-color="#4400ff"/>
+      <stop offset="26%" stop-color="#0066ff"/>
+      <stop offset="40%" stop-color="#00c8c8"/>
+      <stop offset="52%" stop-color="#00c400"/>
+      <stop offset="64%" stop-color="#d4e400"/>
+      <stop offset="74%" stop-color="#ffd000"/>
+      <stop offset="85%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#e60000"/>
+    </linearGradient>
+  </defs>
+
+  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#1e293b">可視光線（約 380〜780nm）</text>
+
+  <rect x="60" y="50" width="680" height="60" rx="4" fill="url(#spectrum)" stroke="#94a3b8" stroke-width="1"/>
+
+  <!-- 波長目盛り -->
+  <g font-family="sans-serif" font-size="13" fill="#1e293b" text-anchor="middle">
+    <line x1="60"  y1="110" x2="60"  y2="122" stroke="#475569" stroke-width="1"/>
+    <text x="60"  y="140">380</text>
+    <line x1="196" y1="110" x2="196" y2="122" stroke="#475569" stroke-width="1"/>
+    <text x="196" y="140">450</text>
+    <line x1="346" y1="110" x2="346" y2="122" stroke="#475569" stroke-width="1"/>
+    <text x="346" y="140">520</text>
+    <line x1="495" y1="110" x2="495" y2="122" stroke="#475569" stroke-width="1"/>
+    <text x="495" y="140">590</text>
+    <line x1="645" y1="110" x2="645" y2="122" stroke="#475569" stroke-width="1"/>
+    <text x="645" y="140">680</text>
+    <line x1="740" y1="110" x2="740" y2="122" stroke="#475569" stroke-width="1"/>
+    <text x="740" y="140">780</text>
+    <text x="400" y="162" font-size="13" fill="#64748b">波長 (nm)</text>
+  </g>
+
+  <text x="60"  y="46" text-anchor="start" font-family="sans-serif" font-size="13" fill="#475569">短波長（紫・青）</text>
+  <text x="740" y="46" text-anchor="end"   font-family="sans-serif" font-size="13" fill="#475569">長波長（赤）</text>
+</svg>
