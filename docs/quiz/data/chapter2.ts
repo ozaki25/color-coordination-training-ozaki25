@@ -59,7 +59,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q105",
-    lesson: "lesson05",
+    lesson: "lesson06",
     difficulty: "normal",
     question: "眼の中でカメラのレンズのようにピントを調節する役割をもつ部分はどれですか。",
     choices: [
@@ -73,7 +73,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q106",
-    lesson: "lesson05",
+    lesson: "lesson06",
     difficulty: "easy",
     question: "眼に入った光が像として映る、フィルムやセンサーにあたる部分はどれですか。",
     choices: [
@@ -87,7 +87,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q107",
-    lesson: "lesson06",
+    lesson: "lesson07",
     difficulty: "normal",
     question: "網膜にある視細胞のうち、色を見分け、明るい場所で働き、黄斑に集中している細胞はどれですか。",
     choices: [
@@ -101,7 +101,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q108",
-    lesson: "lesson07",
+    lesson: "lesson08",
     difficulty: "hard",
     question: "3色型色覚（C型）の錐体と感じる色の対応として正しいものはどれですか。",
     choices: [
@@ -143,7 +143,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q111",
-    lesson: "lesson05",
+    lesson: "lesson06",
     difficulty: "easy",
     question: "眼に入る光の量を調節する、虹彩の中央にある穴はどれですか。",
     choices: [
@@ -157,7 +157,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q112",
-    lesson: "lesson05",
+    lesson: "lesson06",
     difficulty: "hard",
     question: "加齢にともなう水晶体の黄変によって、特に見えにくくなる色はどれですか。",
     choices: [
@@ -171,7 +171,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q113",
-    lesson: "lesson06",
+    lesson: "lesson07",
     difficulty: "normal",
     question: "暗い場所で主に働き、明暗を感じるが色は識別しない視細胞はどれですか。",
     choices: [
@@ -185,7 +185,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q114",
-    lesson: "lesson06",
+    lesson: "lesson07",
     difficulty: "hard",
     question: "プルキニェ現象の説明として正しいものはどれですか。",
     choices: [
@@ -199,7 +199,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q115",
-    lesson: "lesson06",
+    lesson: "lesson07",
     difficulty: "normal",
     question: "明るさによる視環境の分類のうち、夕暮れ時など錐体と桿体の両方が働く中間の明るさを何といいますか。",
     choices: [
@@ -213,7 +213,7 @@ export const chapter2: Quiz[] = [
   },
   {
     id: "q116",
-    lesson: "lesson07",
+    lesson: "lesson08",
     difficulty: "normal",
     question: "色覚タイプと機能しにくい錐体の対応として正しいものはどれですか。",
     choices: [

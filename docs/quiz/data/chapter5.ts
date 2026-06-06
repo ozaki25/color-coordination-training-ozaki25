@@ -3,7 +3,7 @@ import type { Quiz } from "../types";
 export const chapter5: Quiz[] = [
   {
     id: "q401",
-    lesson: "lesson17",
+    lesson: "lesson21",
     difficulty: "easy",
     question: "加齢にともなう視機能の変化として、適切でないものはどれですか。",
     choices: [
@@ -17,7 +17,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q402",
-    lesson: "lesson17",
+    lesson: "lesson21",
     difficulty: "normal",
     question: "色のユニバーサルデザインで、高齢者への配慮として特に重要とされる視機能変化の組み合わせはどれですか。",
     choices: [
@@ -31,7 +31,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q403",
-    lesson: "lesson18",
+    lesson: "lesson22",
     difficulty: "easy",
     question: "加齢による水晶体の黄変について、正しい説明はどれですか。",
     choices: [
@@ -45,7 +45,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q404",
-    lesson: "lesson18",
+    lesson: "lesson22",
     difficulty: "normal",
     question: "水晶体の黄変により高齢者が見えにくくなりやすいものとして、最も適切なものはどれですか。",
     choices: [
@@ -59,7 +59,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q405",
-    lesson: "lesson18",
+    lesson: "lesson22",
     difficulty: "hard",
     question: "水晶体の黄変と白内障の関係について、正しい説明はどれですか。",
     choices: [
@@ -73,7 +73,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q406",
-    lesson: "lesson19",
+    lesson: "lesson22",
     difficulty: "normal",
     question: "グレア（まぶしさ）に関する説明として、適切でないものはどれですか。",
     choices: [
@@ -87,7 +87,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q407",
-    lesson: "lesson17",
+    lesson: "lesson21",
     difficulty: "easy",
     question: "加齢で老眼（老視）が起こる直接の原因として、正しいものはどれですか。",
     choices: [
@@ -101,7 +101,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q408",
-    lesson: "lesson17",
+    lesson: "lesson21",
     difficulty: "normal",
     question: "暗順応の遅れに直接かかわる網膜の細胞はどれですか。",
     choices: [
@@ -115,7 +115,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q409",
-    lesson: "lesson18",
+    lesson: "lesson22",
     difficulty: "easy",
     question: "水晶体の主成分で、加齢により変性・凝集して黄変の原因となるタンパク質はどれですか。",
     choices: [
@@ -129,7 +129,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q410",
-    lesson: "lesson18",
+    lesson: "lesson22",
     difficulty: "hard",
     question: "水晶体の黄変で青系の光が特に吸収されやすくなる理由として、最も適切なものはどれですか。",
     choices: [
@@ -143,7 +143,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q411",
-    lesson: "lesson18",
+    lesson: "lesson22",
     difficulty: "normal",
     question: "高齢者向けに青系の色を使う場合の配慮として、最も適切なものはどれですか。",
     choices: [
@@ -157,7 +157,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q412",
-    lesson: "lesson19",
+    lesson: "lesson22",
     difficulty: "normal",
     question: "夜間の対向車のヘッドライトで前方が見えなくなる現象は、どのグレアにあたりますか。",
     choices: [
@@ -171,7 +171,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q413",
-    lesson: "lesson19",
+    lesson: "lesson22",
     difficulty: "easy",
     question: "白内障の治療について、正しい説明はどれですか。",
     choices: [
@@ -185,7 +185,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q414",
-    lesson: "lesson19",
+    lesson: "lesson22",
     difficulty: "hard",
     question: "高齢者のグレア対策として、適切でないものはどれですか。",
     choices: [
@@ -199,7 +199,7 @@ export const chapter5: Quiz[] = [
   },
   {
     id: "q415",
-    lesson: "lesson17",
+    lesson: "lesson21",
     difficulty: "normal",
     question: "明順応と暗順応の説明として正しいものはどれですか。",
     choices: [

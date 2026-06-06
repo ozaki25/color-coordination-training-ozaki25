@@ -1,60 +1,58 @@
 # 色彩検定 UC 級 学習コンテンツ
 
-色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツです。
+色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツです。公益社団法人 色彩検定協会（AFT）の公式テキスト 2022 改訂版の全 6 章 + 資料に対応しています。
 
 はじめての方は[はじめに](/introduction/)を読んでください。
 
 ## カリキュラム
 
-公式テキスト全 7 章に対応した、全 27 レッスンで構成しています。1 レッスン 1 トピックで、少しずつ知識を積み上げられます。
+公式テキスト全 6 章に対応した、全 28 レッスンで構成しています。1 レッスン 1 トピックで、少しずつ知識を積み上げられます。
 
-### 第1章 色のユニバーサルデザインの考え方
+### 第1章 色のユニバーサルデザイン
 
 - [lesson01: ユニバーサルデザインとは何か](/lessons/lesson01/)
-- [lesson02: 色のユニバーサルデザイン（色のUD）とは](/lessons/lesson02/)
-- [lesson03: 色の機能的役割と情緒的役割](/lessons/lesson03/)
+- [lesson02: 色のユニバーサルデザイン](/lessons/lesson02/)
+- [lesson03: 視覚情報にかかわるUD](/lessons/lesson03/)
 
 ### 第2章 色が見えるしくみ
 
-- [lesson04: 光と可視光線](/lessons/lesson04/)
-- [lesson05: 眼の構造](/lessons/lesson05/)
-- [lesson06: 錐体と桿体](/lessons/lesson06/)
-- [lesson07: 3色型色覚のしくみ](/lessons/lesson07/)
+- [lesson04: 色とは・光とは](/lessons/lesson04/)
+- [lesson05: 光源色・物体色・分光反射率](/lessons/lesson05/)
+- [lesson06: 眼の構造](/lessons/lesson06/)
+- [lesson07: 錐体と桿体](/lessons/lesson07/)
+- [lesson08: 色覚説と色覚の多様性](/lessons/lesson08/)
 
 ### 第3章 色の表し方
 
-- [lesson08: 色の三属性](/lessons/lesson08/)
-- [lesson09: 有彩色と無彩色](/lessons/lesson09/)
+- [lesson09: 色の三属性](/lessons/lesson09/)
 - [lesson10: マンセル表色系](/lessons/lesson10/)
-- [lesson11: PCCS（日本色研配色体系）](/lessons/lesson11/)
+- [lesson11: PCCS（色相とトーン）](/lessons/lesson11/)
+- [lesson12: 色名](/lessons/lesson12/)
 
-### 第4章 色覚の多様性
+### 第4章 色覚のタイプによる色の見え方
 
-- [lesson12: 色覚の多様性](/lessons/lesson12/)
-- [lesson13: P型色覚（1型色覚）の見え方](/lessons/lesson13/)
-- [lesson14: D型色覚（2型色覚）の見え方](/lessons/lesson14/)
-- [lesson15: 混同色線の読み方](/lessons/lesson15/)
-- [lesson16: 色覚特性者が日常で感じる困りごと](/lessons/lesson16/)
+- [lesson13: 色覚の分類](/lessons/lesson13/)
+- [lesson14: P型（1型）の見え方](/lessons/lesson14/)
+- [lesson15: D型（2型）の見え方](/lessons/lesson15/)
+- [lesson16: 混同色線](/lessons/lesson16/)
+- [lesson17: 色の誤認](/lessons/lesson17/)
+- [lesson18: 色覚の遺伝](/lessons/lesson18/)
+- [lesson19: 色覚検査法](/lessons/lesson19/)
+- [lesson20: 不都合を感じる日常事例](/lessons/lesson20/)
 
 ### 第5章 高齢者の見え方
 
-- [lesson17: 加齢による視機能の変化](/lessons/lesson17/)
-- [lesson18: 水晶体の黄変と青系色の見えにくさ](/lessons/lesson18/)
-- [lesson19: グレアと白内障](/lessons/lesson19/)
+- [lesson21: 加齢による視機能の変化](/lessons/lesson21/)
+- [lesson22: 高齢者の見え方の特徴](/lessons/lesson22/)
+- [lesson23: 加齢にともなう眼疾病](/lessons/lesson23/)
+- [lesson24: 高齢者・ロービジョンへの配慮](/lessons/lesson24/)
 
-### 第6章 色のUD配色の実践
+### 第6章 色のUDの進め方
 
-- [lesson20: 色のUD配色の基本方針](/lessons/lesson20/)
-- [lesson21: 明度差・色相差・彩度差による視認性向上](/lessons/lesson21/)
-- [lesson22: 色以外の情報付加](/lessons/lesson22/)
-- [lesson23: 推奨配色セットと身の回りの配色事例](/lessons/lesson23/)
-
-### 第7章 色のUDの進め方
-
-- [lesson24: 色のUD設計のプロセス](/lessons/lesson24/)
-- [lesson25: シミュレーションツールと確認方法](/lessons/lesson25/)
-- [lesson26: 配色の修正・改善方法](/lessons/lesson26/)
-- [lesson27: まとめ・試験直前チェックリスト](/lessons/lesson27/)
+- [lesson25: 色の機能的役割](/lessons/lesson25/)
+- [lesson26: 色のUDを進める手順](/lessons/lesson26/)
+- [lesson27: チェックの方法](/lessons/lesson27/)
+- [lesson28: 設計と修正のポイント](/lessons/lesson28/)
 
 ## ドリル
 

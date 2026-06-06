@@ -3,7 +3,7 @@ import type { Quiz } from "../types";
 export const chapter3: Quiz[] = [
   {
     id: "q201",
-    lesson: "lesson08",
+    lesson: "lesson09",
     difficulty: "easy",
     question: "色の三属性として正しい組み合わせはどれですか。",
     choices: [
@@ -18,7 +18,7 @@ export const chapter3: Quiz[] = [
   },
   {
     id: "q202",
-    lesson: "lesson08",
+    lesson: "lesson09",
     difficulty: "normal",
     question: "色相環で正反対の位置にある色の関係を何と呼びますか。",
     choices: ["類似色", "中間色", "補色", "純色"],
@@ -28,7 +28,7 @@ export const chapter3: Quiz[] = [
   },
   {
     id: "q203",
-    lesson: "lesson08",
+    lesson: "lesson09",
     difficulty: "easy",
     question: "色のユニバーサルデザインで最も重視すべき属性の差はどれですか。",
     choices: ["色相差", "彩度差", "光沢差", "明度差"],
@@ -95,7 +95,7 @@ export const chapter3: Quiz[] = [
   },
   {
     id: "q209",
-    lesson: "lesson08",
+    lesson: "lesson09",
     difficulty: "easy",
     question: "色の三属性のうち、色の鮮やかさ・くすみの度合いを表す属性はどれですか。",
     choices: ["色相", "明度", "彩度", "色調"],
@@ -105,7 +105,7 @@ export const chapter3: Quiz[] = [
   },
   {
     id: "q210",
-    lesson: "lesson08",
+    lesson: "lesson09",
     difficulty: "normal",
     question: "色相環で正反対に位置する補色どうしを混ぜ合わせると、どのような色に近づきますか。",
     choices: [

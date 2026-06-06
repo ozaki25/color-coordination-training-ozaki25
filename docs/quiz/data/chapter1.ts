@@ -87,7 +87,7 @@ export const chapter1: Quiz[] = [
   },
   {
     id: "q007",
-    lesson: "lesson03",
+    lesson: "lesson25",
     difficulty: "normal",
     question: "色の機能的役割のうち、文字や図形の「見つけやすさ」を表すものはどれですか。",
     choices: [
@@ -101,7 +101,7 @@ export const chapter1: Quiz[] = [
   },
   {
     id: "q008",
-    lesson: "lesson03",
+    lesson: "lesson25",
     difficulty: "easy",
     question: "色の機能的役割と情緒的役割について、UC級で特に重要とされるのはどちらですか。",
     choices: [
@@ -171,7 +171,7 @@ export const chapter1: Quiz[] = [
   },
   {
     id: "q013",
-    lesson: "lesson03",
+    lesson: "lesson25",
     difficulty: "normal",
     question: "色の誘目性を高める要素として最も適切なものはどれですか。",
     choices: [
@@ -185,7 +185,7 @@ export const chapter1: Quiz[] = [
   },
   {
     id: "q014",
-    lesson: "lesson03",
+    lesson: "lesson25",
     difficulty: "easy",
     question: "文字や細かい情報が読み取りやすい力を表す機能的役割はどれですか。",
     choices: [
@@ -199,7 +199,7 @@ export const chapter1: Quiz[] = [
   },
   {
     id: "q015",
-    lesson: "lesson03",
+    lesson: "lesson25",
     difficulty: "hard",
     question: "複数の路線を色で区別する路線図に最も関係が深い機能的役割と、その配慮として正しい組み合わせはどれですか。",
     choices: [
@@ -213,7 +213,7 @@ export const chapter1: Quiz[] = [
   },
   {
     id: "q016",
-    lesson: "lesson03",
+    lesson: "lesson25",
     difficulty: "easy",
     question: "コーポレートカラーのように、企業のイメージを伝えるために色を使うことは、色のどの役割にあたりますか。",
     choices: [

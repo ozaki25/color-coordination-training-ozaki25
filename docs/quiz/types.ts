@@ -1,4 +1,4 @@
-export type ChapterId = 1 | 2 | 3 | 4 | 5 | 6 | 7;
+export type ChapterId = 1 | 2 | 3 | 4 | 5 | 6;
 
 export type Difficulty = "easy" | "normal" | "hard";
 
@@ -25,11 +25,10 @@ export type ChapterMeta = {
 };
 
 export const chapters: ChapterMeta[] = [
-  { id: 1, title: "色のUDの考え方", lessonRange: ["lesson01", "lesson03"] },
-  { id: 2, title: "色が見えるしくみ", lessonRange: ["lesson04", "lesson07"] },
-  { id: 3, title: "色の表し方", lessonRange: ["lesson08", "lesson11"] },
-  { id: 4, title: "色覚の多様性", lessonRange: ["lesson12", "lesson16"] },
-  { id: 5, title: "高齢者の見え方", lessonRange: ["lesson17", "lesson19"] },
-  { id: 6, title: "色のUD配色の実践", lessonRange: ["lesson20", "lesson23"] },
-  { id: 7, title: "色のUDの進め方", lessonRange: ["lesson24", "lesson27"] },
+  { id: 1, title: "色のユニバーサルデザイン", lessonRange: ["lesson01", "lesson03"] },
+  { id: 2, title: "色が見えるしくみ", lessonRange: ["lesson04", "lesson08"] },
+  { id: 3, title: "色の表し方", lessonRange: ["lesson09", "lesson12"] },
+  { id: 4, title: "色覚のタイプによる色の見え方", lessonRange: ["lesson13", "lesson20"] },
+  { id: 5, title: "高齢者の見え方", lessonRange: ["lesson21", "lesson24"] },
+  { id: 6, title: "色のUDの進め方", lessonRange: ["lesson25", "lesson28"] },
 ];

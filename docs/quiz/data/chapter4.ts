@@ -3,7 +3,7 @@ import type { Quiz } from "../types";
 export const chapter4: Quiz[] = [
   {
     id: "q301",
-    lesson: "lesson12",
+    lesson: "lesson13",
     difficulty: "easy",
     question: "色覚特性についての基本的なとらえ方として、最も適切なものはどれですか。",
     choices: [
@@ -18,7 +18,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q302",
-    lesson: "lesson12",
+    lesson: "lesson13",
     difficulty: "normal",
     question: "先天性の色覚特性の中で、最も人数が多いタイプはどれですか。",
     choices: ["T型（3型）", "A型", "P型（1型）", "D型（2型）"],
@@ -28,7 +28,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q303",
-    lesson: "lesson12",
+    lesson: "lesson13",
     difficulty: "easy",
     question: "一般的な色覚を持つタイプを表す記号はどれですか。",
     choices: ["C型", "P型", "D型", "T型"],
@@ -38,7 +38,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q304",
-    lesson: "lesson13",
+    lesson: "lesson14",
     difficulty: "normal",
     question: "P型（1型）色覚で異常がある錐体はどれですか。",
     choices: ["S錐体", "M錐体", "L錐体", "桿体"],
@@ -48,7 +48,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q305",
-    lesson: "lesson13",
+    lesson: "lesson14",
     difficulty: "hard",
     question: "P型（1型）の見え方の特徴として正しいものはどれですか。",
     choices: [
@@ -63,7 +63,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q306",
-    lesson: "lesson14",
+    lesson: "lesson15",
     difficulty: "normal",
     question: "D型（2型）色覚で異常がある錐体はどれですか。",
     choices: ["L錐体", "S錐体", "M錐体", "桿体"],
@@ -73,7 +73,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q307",
-    lesson: "lesson14",
+    lesson: "lesson15",
     difficulty: "easy",
     question:
       "D型（2型）の人が混同しやすい色の組み合わせとして適切なものはどれですか。",
@@ -84,7 +84,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q308",
-    lesson: "lesson15",
+    lesson: "lesson16",
     difficulty: "hard",
     question: "色度図上の「混同色線」が表しているものはどれですか。",
     choices: [
@@ -99,7 +99,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q309",
-    lesson: "lesson15",
+    lesson: "lesson16",
     difficulty: "normal",
     question: "T型（3型）の人が区別しにくい色の組み合わせはどれですか。",
     choices: ["赤と緑", "白と黒", "青と黄", "赤と黒"],
@@ -109,7 +109,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q310",
-    lesson: "lesson16",
+    lesson: "lesson20",
     difficulty: "easy",
     question:
       "色覚特性のある人の見え方について、最も適切な説明はどれですか。",
@@ -125,7 +125,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q311",
-    lesson: "lesson12",
+    lesson: "lesson13",
     difficulty: "normal",
     question:
       "P型・D型が男性に多く女性に少ない理由として、正しいものはどれですか。",
@@ -141,7 +141,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q312",
-    lesson: "lesson12",
+    lesson: "lesson13",
     difficulty: "easy",
     question:
       "T型（3型）の特徴として、P型・D型と比べて正しいものはどれですか。",
@@ -157,7 +157,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q313",
-    lesson: "lesson13",
+    lesson: "lesson14",
     difficulty: "hard",
     question:
       "P型弱度（Protanomaly）と P型強度（Protanopia）の違いとして、正しいものはどれですか。",
@@ -173,7 +173,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q314",
-    lesson: "lesson14",
+    lesson: "lesson15",
     difficulty: "easy",
     question:
       "全色覚特性タイプの中で、最も頻度が高いとされるのはどれですか。",
@@ -189,7 +189,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q315",
-    lesson: "lesson14",
+    lesson: "lesson15",
     difficulty: "normal",
     question:
       "P型・D型の人でも比較的識別しやすく、対策として有効なものはどれですか。",
@@ -205,7 +205,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q316",
-    lesson: "lesson15",
+    lesson: "lesson16",
     difficulty: "hard",
     question:
       "T型（3型）の混同色線が収束する方向として、正しいものはどれですか。",
@@ -221,7 +221,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q317",
-    lesson: "lesson16",
+    lesson: "lesson20",
     difficulty: "easy",
     question:
       "日本の信号機が縦型に統一されている理由のひとつとして、色のUDの観点から正しいものはどれですか。",
@@ -237,7 +237,7 @@ export const chapter4: Quiz[] = [
   },
   {
     id: "q318",
-    lesson: "lesson16",
+    lesson: "lesson20",
     difficulty: "normal",
     question:
       "色覚特性のある子どもへの学校での配慮として、適切でないものはどれですか。",
