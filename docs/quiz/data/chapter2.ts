@@ -214,7 +214,7 @@ export const chapter2: Quiz[] = [
   {
     id: "q116",
     lesson: "lesson07",
-    difficulty: "hard",
+    difficulty: "normal",
     question: "プルキニェ現象の説明として正しいものはどれですか。",
     choices: [
       "明るい場所では青緑系が、暗くなると赤系が明るく見えるようになる現象",
@@ -270,7 +270,7 @@ export const chapter2: Quiz[] = [
   {
     id: "q120",
     lesson: "lesson08",
-    difficulty: "hard",
+    difficulty: "normal",
     question: "ヘリングの反対色説（対立色説）が説明する色のペアの組み合わせとして正しいものはどれですか。",
     choices: [
       "赤緑・青黄・白黒の3組",
