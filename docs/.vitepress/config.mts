@@ -83,7 +83,7 @@ export default withPwa(
               items: [
                 { text: "lesson09: 色の三属性", link: "/lessons/lesson09/" },
                 { text: "lesson10: マンセル表色系", link: "/lessons/lesson10/" },
-                { text: "lesson11: PCCS(色相とトーン)", link: "/lessons/lesson11/" },
+                { text: "lesson11: PCCS（色相とトーン）", link: "/lessons/lesson11/" },
                 { text: "lesson12: 色名", link: "/lessons/lesson12/" },
               ],
             },
@@ -92,8 +92,8 @@ export default withPwa(
               collapsed: true,
               items: [
                 { text: "lesson13: 色覚の分類", link: "/lessons/lesson13/" },
-                { text: "lesson14: P型(1型)の見え方", link: "/lessons/lesson14/" },
-                { text: "lesson15: D型(2型)の見え方", link: "/lessons/lesson15/" },
+                { text: "lesson14: P型（1型）の見え方", link: "/lessons/lesson14/" },
+                { text: "lesson15: D型（2型）の見え方", link: "/lessons/lesson15/" },
                 { text: "lesson16: 混同色線", link: "/lessons/lesson16/" },
                 { text: "lesson17: 色の誤認", link: "/lessons/lesson17/" },
                 { text: "lesson18: 色覚の遺伝", link: "/lessons/lesson18/" },
@@ -136,7 +136,7 @@ export default withPwa(
                 { text: "6章 色のUDの進め方", link: "/quiz/chapter6/" },
                 { text: "ランダム 5 問", link: "/quiz/random-5/" },
                 { text: "ランダム 10 問", link: "/quiz/random-10/" },
-                { text: "ランダム出題(全問)", link: "/quiz/random/" },
+                { text: "ランダム出題（全問）", link: "/quiz/random/" },
                 { text: "間違えた問題を復習", link: "/quiz/review/" },
               ],
             },
