@@ -41,6 +41,9 @@ export default withPwa(
           lineColor: "#475569",
           fontFamily: "sans-serif",
         },
+        flowchart: {
+          htmlLabels: false,
+        },
       },
       markdown: {
         config(md) {
