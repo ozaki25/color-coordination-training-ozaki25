@@ -16,7 +16,10 @@ export default withPwa(
         },
       },
       themeConfig: {
-        nav: [{ text: "ホーム", link: "/" }],
+        nav: [
+          { text: "ホーム", link: "/" },
+          { text: "ドリル", link: "/quiz/" },
+        ],
         sidebar: {
           "/lessons/": [
             {
@@ -86,6 +89,26 @@ export default withPwa(
                 { text: "lesson25: シミュレーションツールと確認方法", link: "/lessons/lesson25/" },
                 { text: "lesson26: 配色の修正・改善方法", link: "/lessons/lesson26/" },
                 { text: "lesson27: まとめ・試験直前チェックリスト", link: "/lessons/lesson27/" },
+              ],
+            },
+          ],
+          "/quiz/": [
+            {
+              text: "ドリル",
+              link: "/quiz/",
+              items: [
+                { text: "一覧", link: "/quiz/" },
+                { text: "1章 色のUDの考え方", link: "/quiz/chapter1/" },
+                { text: "2章 色が見えるしくみ", link: "/quiz/chapter2/" },
+                { text: "3章 色の表し方", link: "/quiz/chapter3/" },
+                { text: "4章 色覚の多様性", link: "/quiz/chapter4/" },
+                { text: "5章 高齢者の見え方", link: "/quiz/chapter5/" },
+                { text: "6章 色のUD配色の実践", link: "/quiz/chapter6/" },
+                { text: "7章 色のUDの進め方", link: "/quiz/chapter7/" },
+                { text: "ランダム 5 問", link: "/quiz/random-5/" },
+                { text: "ランダム 10 問", link: "/quiz/random-10/" },
+                { text: "ランダム出題（全問）", link: "/quiz/random/" },
+                { text: "間違えた問題を復習", link: "/quiz/review/" },
               ],
             },
           ],

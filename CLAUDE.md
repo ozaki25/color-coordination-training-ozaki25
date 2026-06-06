@@ -1,0 +1,105 @@
+# CLAUDE.md
+
+このリポジトリで作業する際の方針をまとめます。
+
+## プロジェクト概要
+
+**色彩検定 UC 級（色のユニバーサルデザイン級）** の合格を目指す学習コンテンツです。公益社団法人 色彩検定協会（AFT）の公式テキスト（2022 改訂版）の全 7 章に対応し、1 レッスン 1 トピックで段階的に学べるように構成しています。
+
+- サイトは [VitePress](https://vitepress.dev/) で構築し、Vercel にデプロイしています。
+- 参考にした既存リポジトリ: `web-front-training-ozaki25` / `web-front-handson-ozaki25`（同じ仕組み）。
+
+## 技術スタック
+
+- VitePress + PWA（`@vite-pwa/vitepress`）
+- Mermaid（`vitepress-plugin-mermaid`）— 図解
+- vitepress-plugin-tabs — タブ表示
+- textlint（`preset-ja-technical-writing`）— 日本語文章の校正
+- Vercel Analytics / Speed Insights
+- GitHub Actions — `main` と PR でビルドチェック
+
+## ディレクトリ構成
+
+```
+docs/
+  index.md                     トップページ（カリキュラム目次）
+  introduction/index.md        はじめに
+  lessons/lessonNN/index.md    各レッスン（lesson01〜lesson27）
+  quiz/                        ドリル（4 択問題）
+    types.ts                   型定義・章メタ情報
+    data/chapterN.ts           章ごとの問題データ
+    chapterN/index.md          章別ドリルページ
+    random/ random-5/ random-10/ review/   ランダム・復習ページ
+  .vitepress/
+    config.mts                 サイト設定（nav・サイドバー・PWA）
+    theme/                     カスタムテーマ（ブランド色・ドリル用 Vue コンポーネント）
+scripts/quiz-validate.mjs      ドリルデータの検証スクリプト
+```
+
+## レッスンと章の対応
+
+| 章 | テーマ | レッスン |
+|----|--------|----------|
+| 1 | 色のUDの考え方 | lesson01〜03 |
+| 2 | 色が見えるしくみ | lesson04〜07 |
+| 3 | 色の表し方 | lesson08〜11 |
+| 4 | 色覚の多様性 | lesson12〜16 |
+| 5 | 高齢者の見え方 | lesson17〜19 |
+| 6 | 色のUD配色の実践 | lesson20〜23 |
+| 7 | 色のUDの進め方 | lesson24〜27 |
+
+## 執筆スタイル
+
+レッスンを書く・直すときは以下を守ります。
+
+- **対象読者**: 色彩の知識がほぼない一般社会人。1 レッスン 15 分程度で読める分量。
+- **文体**: です・ます体。
+- **構成**: 各レッスンは次の順で書く。
+  1. `# lessonNN: タイトル — サブタイトル`
+  2. `## このレッスンで学ぶこと`（3〜5 個の箇条書き）
+  3. 本文（`## セクション` / `### サブセクション`）
+  4. `## キーワード`（用語と説明の表）
+  5. `## 試験のポイント`（出題されやすい点の箇条書き）
+- **図解**: 必要に応じて Mermaid・表・`::: tip` / `::: warning` / `::: info` ブロックを使う。
+- **Mermaid のラベル内改行は `\n` を使う**（`<br/>` は使わない。混在させない）。
+- **相互参照**は `[lessonNN](/lessons/lessonNN/)` 形式のリンクにする。
+
+## 用語の統一ルール（重要）
+
+教材全体で以下を統一します。
+
+- **色覚タイプ**: 「P型（1型）」「D型（2型）」「T型（3型）」「A型」を基本表記とする。「P/D型」のような略記は使わない。
+- **呼称**: 「色覚特性」「色覚の多様性」を基本とする。「色覚異常」は医学用語として説明する文脈でのみ使う。「色盲」「色弱」は使わない（歴史的経緯の説明を除く）。
+- **色のUD**: 主表記は「色のUD」。初出で「色のUD（カラーユニバーサルデザイン、CUD）」と定義する。
+- **統計値**: 色覚特性者は「日本人男性の約 5%（20 人に 1 人）」「女性の約 0.2%（500 人に 1 人）」。内訳は P型 約 1.5%、D型 約 3.5%（D型が最多）、T型は「非常にまれ」。
+- **錐体対応**: P型 = L錐体、D型 = M錐体、T型 = S錐体 の異常。
+- **可視光線**: 約 380〜780nm。
+- **コントラスト比**: 標準テキスト 4.5:1 以上、大きな文字・図形要素 3:1 以上（WCAG AA）。白黒の最大は 21:1。
+
+事実・数値はこれらと矛盾しないようにする。新しい数値や用語を持ち込むときは、既存レッスンとの整合を必ず確認する。
+
+## ドリル（quiz）
+
+- 問題データは `docs/quiz/data/chapterN.ts` に `Quiz[]` 型で記述する（`docs/quiz/types.ts` 参照）。
+- `id` は全体で一意。`lesson` は実在する `lessonNN` を指す。`choices` は 4 つ・重複なし。`answer` は 0〜3。正解位置は散らす。
+- 難易度（`difficulty`）は `easy` / `normal` / `hard` をバランスよく。
+- 問題・解説はレッスン本文の事実と一致させる。
+- 追加・編集後は必ず `npm run quiz:validate` で検証する。
+
+## よく使うコマンド
+
+```bash
+npm run docs:dev       # ローカル開発サーバー
+npm run docs:build     # 本番ビルド（Vercel と同じ）
+npm run docs:lint      # textlint で日本語を校正
+npm run quiz:validate  # ドリルデータの検証
+npm run pwa:icons      # logo.svg から PWA アイコンを生成
+```
+
+## 変更時のチェック
+
+レッスンやドリルを変更したら、コミット前に最低限これらを通す。
+
+- `npm run docs:lint` がエラーなしで通る
+- `npm run docs:build` が成功する
+- ドリルを触ったら `npm run quiz:validate` も通る
