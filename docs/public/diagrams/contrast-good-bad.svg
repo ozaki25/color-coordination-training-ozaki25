@@ -10,12 +10,14 @@
   <g>
     <rect x="40" y="80" width="160" height="86" rx="6" fill="#ffffff" stroke="#94a3b8"/>
     <text x="120" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#000000">文字 Aa 5</text>
-    <text x="120" y="186" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">白地 × 黒文字（21:1）</text>
+    <text x="120" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">白地 × 黒文字</text>
+    <text x="120" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#15803d">コントラスト比 21:1 ◎</text>
   </g>
   <g>
     <rect x="220" y="80" width="160" height="86" rx="6" fill="#1a1a1a" stroke="#94a3b8"/>
     <text x="300" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#ffd000">文字 Aa 5</text>
-    <text x="300" y="186" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">黒地 × 黄文字</text>
+    <text x="300" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">黒地 × 黄文字</text>
+    <text x="300" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#15803d">明度差が大きい ◎</text>
   </g>
 
   <!-- 見えにくい -->
@@ -24,12 +26,14 @@
   <g>
     <rect x="420" y="80" width="160" height="86" rx="6" fill="#e60000" stroke="#94a3b8"/>
     <text x="500" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#00a040">文字 Aa 5</text>
-    <text x="500" y="186" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">赤地 × 緑文字（P型・D型に困難）</text>
+    <text x="500" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">赤地 × 緑文字</text>
+    <text x="500" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#b91c1c">P型・D型に困難 ✕</text>
   </g>
   <g>
     <rect x="600" y="80" width="160" height="86" rx="6" fill="#7ec8e3" stroke="#94a3b8"/>
     <text x="680" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#ffffff">文字 Aa 5</text>
-    <text x="680" y="186" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">水色地 × 白文字（明度差不足）</text>
+    <text x="680" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">水色地 × 白文字</text>
+    <text x="680" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#b91c1c">明度差不足 ✕</text>
   </g>
 
   <rect x="40" y="220" width="720" height="56" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
