@@ -44,7 +44,6 @@ npm run pwa:icons      # logo.svg から PWA アイコンを生成
 ```
 docs/
   index.md                     トップページ
-  introduction/index.md        はじめに（試験概要・学習の進め方）
   lessons/lessonNN/index.md    各レッスン（lesson01〜lesson28）
   quiz/                        ドリル（4 択問題）
     types.ts                   型定義・章メタ情報

@@ -23,7 +23,6 @@
 ```
 docs/
   index.md                     トップページ（カリキュラム目次）
-  introduction/index.md        はじめに
   lessons/lessonNN/index.md    各レッスン（lesson01〜lesson28）
   quiz/                        ドリル（4 択問題）
     types.ts                   型定義・章メタ情報
