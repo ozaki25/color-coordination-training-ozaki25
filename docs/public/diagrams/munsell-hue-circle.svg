@@ -10,7 +10,7 @@
       .bg { fill: #1f1f1f; }
       .t-h1 { fill: #e2e8f0; }
       .t-muted { fill: #64748b; }
-      .label-stroke { stroke: #1f1f1f; }
+      /* 色相環のラベルは色サンプル上に乗るため、両モードで白ストロークを維持する */
     }
   </style>
   <rect class="bg" width="300" height="340"/>

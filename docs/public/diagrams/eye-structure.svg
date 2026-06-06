@@ -6,6 +6,8 @@
     .t-h1 { fill: #1e293b; }
     .t-h3 { fill: #64748b; }
     .light-orange { fill: #b45309; }
+    .t-macula { fill: #a16207; }
+    .t-nerve { fill: #7c3aed; }
     .vitreous { fill: #eff6ff; stroke: #475569; }
     .leader { stroke: #94a3b8; }
     @media (prefers-color-scheme: dark) {
@@ -13,6 +15,8 @@
       .t-h1 { fill: #e2e8f0; }
       .t-h3 { fill: #94a3b8; }
       .light-orange { fill: #fbbf24; }
+      .t-macula { fill: #fbbf24; }
+      .t-nerve { fill: #c4b5fd; }
       .vitreous { fill: #2a2a2a; stroke: #94a3b8; }
       .leader { stroke: #64748b; }
     }
@@ -51,9 +55,9 @@
     <text x="595" y="114" text-anchor="middle">網膜（錐体・桿体）</text>
 
     <line x1="545" y1="165" x2="514" y2="186" class="leader" stroke-width="1"/>
-    <text x="558" y="160" text-anchor="middle" font-size="12" fill="#a16207">黄斑</text>
+    <text x="558" y="160" text-anchor="middle" font-size="12" class="t-macula">黄斑</text>
 
     <line x1="620" y1="300" x2="575" y2="280" class="leader" stroke-width="1"/>
-    <text x="650" y="306" text-anchor="middle" fill="#7c3aed">視神経 → 脳へ</text>
+    <text x="650" y="306" text-anchor="middle" class="t-nerve">視神経 → 脳へ</text>
   </g>
 </svg>

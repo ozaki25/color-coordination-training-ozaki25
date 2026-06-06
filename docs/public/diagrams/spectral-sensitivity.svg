@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
   <title id="title">3種類の錐体の分光感度曲線</title>
-  <desc id="desc">S錐体は短波長（青、約420nm）、M錐体は中波長（緑、約534nm）、L錐体は長波長（赤〜黄、約564nm）にピークをもつ感度曲線。横軸は波長、縦軸は相対感度。</desc>
+  <desc id="desc">S錐体は短波長（青）、M錐体は中波長（緑）、L錐体は長波長（赤〜黄）にピークをもつ感度曲線。横軸は波長、縦軸は相対感度。</desc>
   <style>
     .bg { fill: #ffffff; }
     .t-h1 { fill: #1e293b; }
@@ -37,11 +37,8 @@
 
   <g font-family="sans-serif" font-size="14" font-weight="700">
     <text x="157" y="62" text-anchor="middle" fill="#1f6fd6">S錐体</text>
-    <text x="157" y="290" text-anchor="middle" font-size="11" font-weight="400" fill="#1f6fd6">約420nm</text>
     <text x="392" y="56" text-anchor="middle" fill="#2ca02c">M錐体</text>
-    <text x="407" y="290" text-anchor="middle" font-size="11" font-weight="400" fill="#2ca02c">約534nm</text>
     <text x="500" y="54" text-anchor="middle" fill="#d62728">L錐体</text>
-    <text x="500" y="290" text-anchor="middle" font-size="11" font-weight="400" fill="#d62728">約564nm</text>
   </g>
 
   <text x="380" y="358" text-anchor="middle" font-family="sans-serif" font-size="11" class="t-muted">S＝短波長（青）・M＝中波長（緑）・L＝長波長（赤〜黄）に感度のピークをもつ</text>
