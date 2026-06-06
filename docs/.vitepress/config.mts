@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { withPwa } from "@vite-pwa/vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
+import cjkFriendly from "markdown-it-cjk-friendly";
 
 export default withPwa(
   withMermaid(
@@ -41,6 +42,9 @@ export default withPwa(
       markdown: {
         config(md) {
           md.use(tabsMarkdownPlugin);
+          // 日本語の太字（**…**）で、閉じ ** の直前が全角閉じ括弧（）」など）の
+          // 場合に強調が描画されない CJK flanking 問題を解消する。
+          md.use(cjkFriendly);
         },
       },
       themeConfig: {

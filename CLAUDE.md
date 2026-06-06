@@ -64,6 +64,14 @@ scripts/quiz-validate.mjs      ドリルデータの検証スクリプト
 - **Mermaid のラベル内改行は `\n` を使う**（`<br/>` は使わない。混在させない）。
 - **相互参照**は `[lessonNN](/lessons/lessonNN/)` 形式のリンクにする。
 
+## Markdown の太字（強調）について
+
+日本語では `**強調**` の閉じ `**` の直前が全角閉じ括弧（`）」】〉》`）だと、素の markdown-it では強調が描画されず `**` がそのまま表示される（CJK flanking 問題）。例: `**錐体（すいたい）**`。
+
+このプロジェクトでは `markdown-it-cjk-friendly` を `config.mts` の `markdown.config` で導入してこの問題を解消済み。そのため `**用語（よみ）**` のような書き方をしてもよい。
+
+- ただし**ドリル（quiz）の `question` / `explanation` では `**` は使わない**。QuizCard の `renderText` はバッククォート（`` `code` ``）しか変換せず、`**` はそのまま表示される。ドリルで強調したい場合は文言で工夫する。
+
 ## 用語の統一ルール（重要）
 
 教材全体で以下を統一します。
