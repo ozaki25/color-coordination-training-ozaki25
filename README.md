@@ -10,8 +10,7 @@
 
 - **27 レッスン**: 公式テキスト全 7 章をカバー（1 レッスン 15 分程度）
 - **112 問のドリル**: 章別出題・ランダム・復習に対応。回答履歴をブラウザに保存
-- **10 種類の図版**: 可視光スペクトル・色相環・分光感度曲線など、色そのものを示す SVG 図解
-- **学習進捗管理**: レッスンの読了状況をブラウザに記録し、達成度を可視化
+- **11 種類の図版**: 可視光スペクトル・色相環・分光感度曲線など、色そのものを示す SVG 図解
 
 ## 技術スタック
 
@@ -19,7 +18,7 @@
 - [Mermaid](https://mermaid.js.org/)（`vitepress-plugin-mermaid`）— 図解
 - vitepress-plugin-tabs — タブ表示
 - textlint（`preset-ja-technical-writing`）— 日本語文章の校正
-- Vue 3 — ドリル・進捗管理のカスタムコンポーネント
+- Vue 3 — ドリルのカスタムコンポーネント
 - Vercel Analytics / Speed Insights
 - GitHub Actions — `main` と PR でビルド・lint・ドリル検証
 
