@@ -47,7 +47,7 @@
 - [lesson20: 色のUD配色の基本方針](/lessons/lesson20/)
 - [lesson21: 明度差・色相差・彩度差による視認性向上](/lessons/lesson21/)
 - [lesson22: 色以外の情報付加](/lessons/lesson22/)
-- [lesson23: 身の回りの配色事例](/lessons/lesson23/)
+- [lesson23: 推奨配色セットと身の回りの配色事例](/lessons/lesson23/)
 
 ### 第7章 色のUDの進め方
 

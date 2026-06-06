@@ -113,7 +113,7 @@ export default withPwa(
                 { text: "lesson20: 色のUD配色の基本方針", link: "/lessons/lesson20/" },
                 { text: "lesson21: 明度差・色相差・彩度差による視認性向上", link: "/lessons/lesson21/" },
                 { text: "lesson22: 色以外の情報付加", link: "/lessons/lesson22/" },
-                { text: "lesson23: 身の回りの配色事例", link: "/lessons/lesson23/" },
+                { text: "lesson23: 推奨配色セットと身の回りの配色事例", link: "/lessons/lesson23/" },
               ],
             },
             {

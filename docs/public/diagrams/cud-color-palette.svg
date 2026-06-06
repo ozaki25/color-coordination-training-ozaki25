@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-labelledby="title desc">
+  <title id="title">カラーユニバーサルデザイン推奨配色セット（20色）</title>
+  <desc id="desc">NPO法人CUDOが定める色覚特性者にも見分けやすい配色パレット。アクセントカラー9色（高彩度・小面積向き）、ベースカラー7色（高明度低彩度・広い面積向き）、無彩色4色の計20色。</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h2 { fill: #475569; }
+    .t-h3 { fill: #64748b; }
+    .chip-stroke { stroke: #94a3b8; }
+    .label-on-light { fill: #1e293b; }
+    .label-on-dark { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h2 { fill: #cbd5e1; }
+      .t-h3 { fill: #94a3b8; }
+      .chip-stroke { stroke: #64748b; }
+    }
+  </style>
+  <rect class="bg" width="800" height="540"/>
+
+  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" class="t-h1">カラーユニバーサルデザイン推奨配色セット（20色）</text>
+  <text x="400" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" class="t-h3">NPO法人CUDO制定。色覚特性者にも見分けやすい配色パレット</text>
+
+  <!-- アクセントカラー（9色）: 高彩度・小面積向き -->
+  <text x="40" y="84" font-family="sans-serif" font-size="14" font-weight="700" class="t-h1">アクセントカラー（9色）— 高彩度。文字・線・マーカーなど小面積に</text>
+  <g font-family="sans-serif" font-size="12">
+    <g><rect x="40"  y="96" width="80" height="56" rx="4" fill="#ff2800" class="chip-stroke"/><text x="80"  y="128" text-anchor="middle" class="label-on-dark" font-weight="700">赤</text></g>
+    <g><rect x="124" y="96" width="80" height="56" rx="4" fill="#faf500" class="chip-stroke"/><text x="164" y="128" text-anchor="middle" class="label-on-light" font-weight="700">黄</text></g>
+    <g><rect x="208" y="96" width="80" height="56" rx="4" fill="#35a16b" class="chip-stroke"/><text x="248" y="128" text-anchor="middle" class="label-on-dark" font-weight="700">緑</text></g>
+    <g><rect x="292" y="96" width="80" height="56" rx="4" fill="#0041ff" class="chip-stroke"/><text x="332" y="128" text-anchor="middle" class="label-on-dark" font-weight="700">青</text></g>
+    <g><rect x="376" y="96" width="80" height="56" rx="4" fill="#66ccff" class="chip-stroke"/><text x="416" y="128" text-anchor="middle" class="label-on-light" font-weight="700">空色</text></g>
+    <g><rect x="460" y="96" width="80" height="56" rx="4" fill="#ff99a0" class="chip-stroke"/><text x="500" y="128" text-anchor="middle" class="label-on-light" font-weight="700">ピンク</text></g>
+    <g><rect x="544" y="96" width="80" height="56" rx="4" fill="#ff9900" class="chip-stroke"/><text x="584" y="128" text-anchor="middle" class="label-on-light" font-weight="700">オレンジ</text></g>
+    <g><rect x="628" y="96" width="80" height="56" rx="4" fill="#9a0079" class="chip-stroke"/><text x="668" y="128" text-anchor="middle" class="label-on-dark" font-weight="700">紫</text></g>
+    <g><rect x="712" y="96" width="60" height="56" rx="4" fill="#663300" class="chip-stroke"/><text x="742" y="128" text-anchor="middle" class="label-on-dark" font-weight="700">茶</text></g>
+  </g>
+
+  <!-- ベースカラー（7色）: 高明度低彩度・広い面積向き -->
+  <text x="40" y="200" font-family="sans-serif" font-size="14" font-weight="700" class="t-h1">ベースカラー（7色）— 高明度・低彩度。背景や塗りつぶしなど広い面積に</text>
+  <g font-family="sans-serif" font-size="12">
+    <g><rect x="40"  y="212" width="100" height="56" rx="4" fill="#ffd1d1" class="chip-stroke"/><text x="90"  y="244" text-anchor="middle" class="label-on-light" font-weight="700">明るいピンク</text></g>
+    <g><rect x="148" y="212" width="100" height="56" rx="4" fill="#ffff99" class="chip-stroke"/><text x="198" y="244" text-anchor="middle" class="label-on-light" font-weight="700">クリーム</text></g>
+    <g><rect x="256" y="212" width="100" height="56" rx="4" fill="#cbf266" class="chip-stroke"/><text x="306" y="244" text-anchor="middle" class="label-on-light" font-weight="700">明るい黄緑</text></g>
+    <g><rect x="364" y="212" width="100" height="56" rx="4" fill="#87e7b0" class="chip-stroke"/><text x="414" y="244" text-anchor="middle" class="label-on-light" font-weight="700">明るい緑</text></g>
+    <g><rect x="472" y="212" width="100" height="56" rx="4" fill="#b4ebfa" class="chip-stroke"/><text x="522" y="244" text-anchor="middle" class="label-on-light" font-weight="700">明るい空色</text></g>
+    <g><rect x="580" y="212" width="100" height="56" rx="4" fill="#c7b2de" class="chip-stroke"/><text x="630" y="244" text-anchor="middle" class="label-on-light" font-weight="700">明るい紫</text></g>
+    <g><rect x="688" y="212" width="80"  height="56" rx="4" fill="#edc58f" class="chip-stroke"/><text x="728" y="244" text-anchor="middle" class="label-on-light" font-weight="700">ベージュ</text></g>
+  </g>
+
+  <!-- 無彩色（4色） -->
+  <text x="40" y="316" font-family="sans-serif" font-size="14" font-weight="700" class="t-h1">無彩色（4色）— 上のカラーと組み合わせても誤認しにくい</text>
+  <g font-family="sans-serif" font-size="12">
+    <g><rect x="40"  y="328" width="120" height="56" rx="4" fill="#ffffff" class="chip-stroke"/><text x="100" y="360" text-anchor="middle" class="label-on-light" font-weight="700">白</text></g>
+    <g><rect x="168" y="328" width="120" height="56" rx="4" fill="#c8c8cb" class="chip-stroke"/><text x="228" y="360" text-anchor="middle" class="label-on-light" font-weight="700">明るいグレー</text></g>
+    <g><rect x="296" y="328" width="120" height="56" rx="4" fill="#7f878f" class="chip-stroke"/><text x="356" y="360" text-anchor="middle" class="label-on-dark" font-weight="700">グレー</text></g>
+    <g><rect x="424" y="328" width="120" height="56" rx="4" fill="#000000" class="chip-stroke"/><text x="484" y="360" text-anchor="middle" class="label-on-dark" font-weight="700">黒</text></g>
+  </g>
+
+  <!-- 補足 -->
+  <text x="40" y="412" font-family="sans-serif" font-size="13" font-weight="700" class="t-h1">使い分けのコツ</text>
+  <text x="40" y="434" font-family="sans-serif" font-size="12" class="t-h2">・小さい文字・線・マーカー → アクセントカラー（高彩度）</text>
+  <text x="40" y="454" font-family="sans-serif" font-size="12" class="t-h2">・広い背景や塗りつぶし → ベースカラー（高明度・低彩度）。アクセントを乗せても見分けやすい</text>
+  <text x="40" y="474" font-family="sans-serif" font-size="12" class="t-h2">・無彩色（白・グレー・黒）は組み合わせの自由度が高く、コントラストの調整に有効</text>
+  <text x="40" y="500" font-family="sans-serif" font-size="11" class="t-h3">※ 色値は ver.4 を参考にした近似値。色域の表現には端末差があるため、印刷時は別途専用ガイドを参照。</text>
+</svg>
