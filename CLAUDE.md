@@ -24,7 +24,7 @@
 docs/
   index.md                     トップページ（カリキュラム目次）
   introduction/index.md        はじめに
-  lessons/lessonNN/index.md    各レッスン（lesson01〜lesson27）
+  lessons/lessonNN/index.md    各レッスン（lesson01〜lesson28）
   quiz/                        ドリル（4 択問題）
     types.ts                   型定義・章メタ情報
     data/chapterN.ts           章ごとの問題データ
@@ -75,7 +75,7 @@ scripts/quiz-validate.mjs      ドリルデータの検証スクリプト
 | lesson22 | 5-2 | 高齢者の見え方の特徴 |
 | lesson23 | 5-3 | 加齢にともなう眼疾病 |
 | lesson24 | 5-4 | 高齢者・ロービジョンへの配慮 |
-| lesson25 | 6-1 | 色の機能的役割 |
+| lesson25 | 6-1 | 色の機能的役割と情緒的役割 |
 | lesson26 | 6-2 | 色のUDを進める手順 |
 | lesson27 | 6-3 | チェックの方法 |
 | lesson28 | 6-4 | 設計と修正のポイント＋改善事例 |
