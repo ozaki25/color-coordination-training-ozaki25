@@ -7,9 +7,27 @@ export default withPwa(
   withMermaid(
     defineConfig({
       title: "色彩検定 UC 級 学習コンテンツ",
-      description: "色彩検定 UC 級の学習コンテンツ",
+      description: "色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツ。公式テキスト全7章に対応した27レッスン、112問のドリル、図解で段階的に学べます。",
       lang: "ja",
-      head: [["meta", { name: "theme-color", content: "#4338ca" }]],
+      lastUpdated: true,
+      cleanUrls: true,
+      sitemap: {
+        hostname: "https://color-coordination-test-training-ozaki25.vercel.app",
+      },
+      head: [
+        ["meta", { name: "theme-color", content: "#4338ca" }],
+        ["meta", { name: "author", content: "ozaki25" }],
+        ["meta", { property: "og:type", content: "website" }],
+        ["meta", { property: "og:locale", content: "ja_JP" }],
+        ["meta", { property: "og:site_name", content: "色彩検定 UC 級 学習コンテンツ" }],
+        ["meta", { property: "og:title", content: "色彩検定 UC 級 学習コンテンツ" }],
+        ["meta", { property: "og:description", content: "色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツ。公式テキスト全7章に対応した27レッスン、112問のドリル、図解で段階的に学べます。" }],
+        ["meta", { property: "og:image", content: "/ogp.png" }],
+        ["meta", { name: "twitter:card", content: "summary_large_image" }],
+        ["meta", { name: "twitter:title", content: "色彩検定 UC 級 学習コンテンツ" }],
+        ["meta", { name: "twitter:description", content: "色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツ。27レッスン+112問のドリル付き。" }],
+        ["meta", { name: "twitter:image", content: "/ogp.png" }],
+      ],
       mermaid: {
         theme: "default",
         themeVariables: {
