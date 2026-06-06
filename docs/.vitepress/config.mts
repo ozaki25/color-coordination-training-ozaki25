@@ -8,7 +8,7 @@ export default withPwa(
   withMermaid(
     defineConfig({
       title: "色彩検定 UC 級 学習コンテンツ",
-      description: "色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツ。公式テキスト全6章+資料に対応した28レッスン、図解とドリルで段階的に学べます。",
+      description: "色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツ。全6章28レッスン、図解とドリルで段階的に学べます。",
       lang: "ja",
       lastUpdated: true,
       cleanUrls: true,
@@ -25,7 +25,7 @@ export default withPwa(
         ["meta", { property: "og:locale", content: "ja_JP" }],
         ["meta", { property: "og:site_name", content: "色彩検定 UC 級 学習コンテンツ" }],
         ["meta", { property: "og:title", content: "色彩検定 UC 級 学習コンテンツ" }],
-        ["meta", { property: "og:description", content: "色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツ。公式テキスト全6章+資料に対応した28レッスン、図解とドリルで段階的に学べます。" }],
+        ["meta", { property: "og:description", content: "色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツ。全6章28レッスン、図解とドリルで段階的に学べます。" }],
         ["meta", { property: "og:image", content: "/ogp.png" }],
         ["meta", { name: "twitter:card", content: "summary_large_image" }],
         ["meta", { name: "twitter:title", content: "色彩検定 UC 級 学習コンテンツ" }],

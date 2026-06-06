@@ -13,7 +13,7 @@
 
 ## 色のUD設計・修正の全体像
 
-公益社団法人 色彩検定協会（AFT）の公式テキストでは、色のUDを実現するための設計と修正のポイントを4つに整理しています。[lesson25](/lessons/lesson25/)で確認した色の機能的役割を踏まえ、[lesson26](/lessons/lesson26/)の手順、[lesson27](/lessons/lesson27/)のチェックと組み合わせて使う具体的な指針です。
+色のUDを実現するための設計と修正のポイントは、次の4つに整理できます。[lesson25](/lessons/lesson25/)で確認した色の機能的役割を踏まえ、[lesson26](/lessons/lesson26/)の手順、[lesson27](/lessons/lesson27/)のチェックと組み合わせて使う具体的な指針です。
 
 ```mermaid
 graph TD
