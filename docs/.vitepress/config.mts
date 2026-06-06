@@ -10,6 +10,16 @@ export default withPwa(
       description: "色彩検定 UC 級の学習コンテンツ",
       lang: "ja",
       head: [["meta", { name: "theme-color", content: "#4338ca" }]],
+      mermaid: {
+        theme: "default",
+        themeVariables: {
+          primaryColor: "#eef2ff",
+          primaryTextColor: "#1e293b",
+          primaryBorderColor: "#4338ca",
+          lineColor: "#475569",
+          fontFamily: "sans-serif",
+        },
+      },
       markdown: {
         config(md) {
           md.use(tabsMarkdownPlugin);

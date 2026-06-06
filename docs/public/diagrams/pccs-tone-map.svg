@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">PCCS トーンマップ</title>
+  <desc id="desc">PCCSの12トーン（vivid・bright・strong・deep・light・soft・dull・dark・pale・light grayish・grayish・dark grayish）を縦軸=明度、横軸=彩度の位置に配置した図。赤色系での例示。</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h2 { fill: #475569; }
+    .t-h3 { fill: #64748b; }
+    .t-muted { fill: #94a3b8; }
+    .axis { stroke: #475569; }
+    .grid { stroke: #e2e8f0; }
+    .tone-label-stroke { stroke: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h2 { fill: #cbd5e1; }
+      .t-h3 { fill: #94a3b8; }
+      .t-muted { fill: #64748b; }
+      .axis { stroke: #94a3b8; }
+      .grid { stroke: #333333; }
+      .tone-label-stroke { stroke: #1f1f1f; }
+    }
+  </style>
+  <rect class="bg" width="720" height="480"/>
+
+  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" class="t-h1">PCCS トーンマップ（赤系で例示）</text>
+  <text x="360" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" class="t-h3">縦軸 = 明度、横軸 = 彩度。色相は同じでも、トーンが異なれば印象が大きく変わる</text>
+
+  <!-- 軸 -->
+  <line x1="120" y1="90" x2="120" y2="420" class="axis" stroke-width="1.5"/>
+  <line x1="120" y1="420" x2="680" y2="420" class="axis" stroke-width="1.5"/>
+
+  <!-- 軸ラベル -->
+  <text x="60" y="255" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" class="t-h1" transform="rotate(-90 60 255)">明度（高い ↑）</text>
+  <text x="105" y="105" text-anchor="end" font-family="sans-serif" font-size="11" class="t-h3">高</text>
+  <text x="105" y="425" text-anchor="end" font-family="sans-serif" font-size="11" class="t-h3">低</text>
+  <text x="400" y="460" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" class="t-h1">彩度（高い →）</text>
+  <text x="135" y="438" text-anchor="middle" font-family="sans-serif" font-size="11" class="t-h3">低</text>
+  <text x="660" y="438" text-anchor="middle" font-family="sans-serif" font-size="11" class="t-h3">高</text>
+
+  <!-- グリッド -->
+  <g class="grid" stroke-width="1" stroke-dasharray="3 3" fill="none">
+    <line x1="120" y1="170" x2="680" y2="170"/>
+    <line x1="120" y1="250" x2="680" y2="250"/>
+    <line x1="120" y1="330" x2="680" y2="330"/>
+  </g>
+
+  <!-- 各トーンの色サンプル（赤系R系での代表色） -->
+  <!-- pale (最高明度、低彩度) -->
+  <g><rect x="160" y="100" width="80" height="50" rx="6" fill="#f4d6d6" stroke="#94a3b8"/><text x="200" y="132" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#1e293b">pale</text></g>
+  <!-- light grayish (高明度、最低彩度) -->
+  <g><rect x="160" y="160" width="80" height="50" rx="6" fill="#cbb8b8" stroke="#94a3b8"/><text x="200" y="192" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2" fill="#1e293b">light gr.</text></g>
+  <!-- light (高明度、中彩度) -->
+  <g><rect x="320" y="120" width="80" height="50" rx="6" fill="#ec9a9a" stroke="#94a3b8"/><text x="360" y="152" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#1e293b">light</text></g>
+  <!-- bright (高明度、高彩度) -->
+  <g><rect x="520" y="110" width="80" height="50" rx="6" fill="#f56b6b" stroke="#94a3b8"/><text x="560" y="142" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#1e293b">bright</text></g>
+
+  <!-- soft (中高明度、中低彩度) -->
+  <g><rect x="320" y="180" width="80" height="50" rx="6" fill="#cd8c8c" stroke="#94a3b8"/><text x="360" y="212" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#1e293b">soft</text></g>
+
+  <!-- grayish (中明度、最低彩度) -->
+  <g><rect x="160" y="220" width="80" height="50" rx="6" fill="#9a8989" stroke="#94a3b8"/><text x="200" y="252" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#1e293b">grayish</text></g>
+  <!-- dull (中明度、中低彩度) -->
+  <g><rect x="320" y="240" width="80" height="50" rx="6" fill="#b06b6b" stroke="#94a3b8"/><text x="360" y="272" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#1e293b">dull</text></g>
+  <!-- strong (中明度、高彩度) -->
+  <g><rect x="520" y="220" width="80" height="50" rx="6" fill="#cd3030" stroke="#94a3b8"/><text x="560" y="252" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">strong</text></g>
+  <!-- vivid (中-高明度、最高彩度) -->
+  <g><rect x="600" y="170" width="80" height="50" rx="6" fill="#e60000" stroke="#94a3b8"/><text x="640" y="202" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">vivid</text></g>
+
+  <!-- dark grayish (低明度、最低彩度) -->
+  <g><rect x="160" y="340" width="80" height="50" rx="6" fill="#544242" stroke="#94a3b8"/><text x="200" y="372" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2" fill="#ffffff">dark gr.</text></g>
+  <!-- dark (低明度、中低彩度) -->
+  <g><rect x="320" y="340" width="80" height="50" rx="6" fill="#6e2828" stroke="#94a3b8"/><text x="360" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">dark</text></g>
+  <!-- deep (低-中明度、高彩度) -->
+  <g><rect x="520" y="320" width="80" height="50" rx="6" fill="#a82020" stroke="#94a3b8"/><text x="560" y="352" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">deep</text></g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">水晶体の黄変による見え方の変化</title>
+  <desc id="desc">通常の色覚と、加齢で水晶体が黄変した場合の色の見え方を比較。青系の色は暗く沈み、黒や紺と区別しにくくなる。</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h2 { fill: #475569; }
+    .t-h3 { fill: #64748b; }
+    .panel { fill: #f8fafc; stroke: #e2e8f0; }
+    .panel-bd-light { stroke: #94a3b8; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h2 { fill: #cbd5e1; }
+      .t-h3 { fill: #94a3b8; }
+      .panel { fill: #2a2a2a; stroke: #444444; }
+      .panel-bd-light { stroke: #64748b; }
+    }
+  </style>
+  <rect class="bg" width="760" height="380"/>
+
+  <text x="380" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" class="t-h1">水晶体の黄変による青系の見えにくさ</text>
+
+  <!-- 通常 -->
+  <text x="180" y="68" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" class="t-h1">通常の見え方</text>
+  <g>
+    <rect x="40" y="80" width="280" height="180" rx="8" class="panel"/>
+    <!-- 4色サンプル -->
+    <rect x="60" y="100" width="120" height="32" rx="4" fill="#0044cc" stroke="#94a3b8"/>
+    <text x="195" y="122" font-family="sans-serif" font-size="13" class="t-h1">青（鮮やか）</text>
+    <rect x="60" y="142" width="120" height="32" rx="4" fill="#5a4ec0" stroke="#94a3b8"/>
+    <text x="195" y="164" font-family="sans-serif" font-size="13" class="t-h1">青紫</text>
+    <rect x="60" y="184" width="120" height="32" rx="4" fill="#101820" stroke="#94a3b8"/>
+    <text x="195" y="206" font-family="sans-serif" font-size="13" class="t-h1">黒（紺色）</text>
+    <rect x="60" y="226" width="120" height="32" rx="4" fill="#0a85e0" stroke="#94a3b8"/>
+    <text x="195" y="248" font-family="sans-serif" font-size="13" class="t-h1">水色</text>
+  </g>
+
+  <!-- 矢印 -->
+  <g transform="translate(360,170)">
+    <path d="M0,-20 L40,0 L0,20 Z" fill="#94a3b8"/>
+    <text x="20" y="-30" text-anchor="middle" font-family="sans-serif" font-size="11" class="t-h3">水晶体が黄変</text>
+  </g>
+
+  <!-- 黄変後 -->
+  <text x="580" y="68" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" class="t-h1">黄変した水晶体を通した見え方</text>
+  <g>
+    <rect x="440" y="80" width="280" height="180" rx="8" class="panel"/>
+    <!-- 青系が黄変フィルタを通った後の近似色 -->
+    <rect x="460" y="100" width="120" height="32" rx="4" fill="#332b65" stroke="#94a3b8"/>
+    <text x="595" y="122" font-family="sans-serif" font-size="13" class="t-h1">青 → くすんだ紺</text>
+    <rect x="460" y="142" width="120" height="32" rx="4" fill="#5a4a5e" stroke="#94a3b8"/>
+    <text x="595" y="164" font-family="sans-serif" font-size="13" class="t-h1">青紫 → 灰紫</text>
+    <rect x="460" y="184" width="120" height="32" rx="4" fill="#1d1d12" stroke="#94a3b8"/>
+    <text x="595" y="206" font-family="sans-serif" font-size="13" class="t-h1">黒 → 区別しにくい</text>
+    <rect x="460" y="226" width="120" height="32" rx="4" fill="#5e7268" stroke="#94a3b8"/>
+    <text x="595" y="248" font-family="sans-serif" font-size="13" class="t-h1">水色 → 灰緑っぽく</text>
+  </g>
+
+  <rect x="40" y="290" width="680" height="68" rx="6" class="panel"/>
+  <text x="60" y="316" font-family="sans-serif" font-size="13" class="t-h1" font-weight="700">起きやすい困りごと：</text>
+  <text x="60" y="338" font-family="sans-serif" font-size="13" class="t-h2">・青信号やガスコンロの青い炎が暗く感じられ、点いているか判断しにくい</text>
+  <text x="60" y="354" font-family="sans-serif" font-size="12" class="t-h3">※ 上の右側の色はあくまでイメージです。実際の見え方には個人差があります</text>
+</svg>

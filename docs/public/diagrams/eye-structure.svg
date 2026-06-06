@@ -1,52 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="title desc">
   <title id="title">眼の構造の断面図</title>
   <desc id="desc">光が角膜・瞳孔・水晶体を通り、硝子体を経て網膜に像を結び、視神経を通って脳へ伝わる流れを示した眼球の断面図。網膜の中心に黄斑がある。</desc>
-  <rect width="720" height="380" fill="#ffffff"/>
-  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#1e293b">眼の構造（断面）</text>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h3 { fill: #64748b; }
+    .light-orange { fill: #b45309; }
+    .vitreous { fill: #eff6ff; stroke: #475569; }
+    .leader { stroke: #94a3b8; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h3 { fill: #94a3b8; }
+      .light-orange { fill: #fbbf24; }
+      .vitreous { fill: #2a2a2a; stroke: #94a3b8; }
+      .leader { stroke: #64748b; }
+    }
+  </style>
+  <rect class="bg" width="720" height="380"/>
+  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" class="t-h1">眼の構造（断面）</text>
 
-  <!-- 光線（左から） -->
   <g stroke="#f59e0b" stroke-width="2">
     <line x1="40" y1="150" x2="202" y2="184"/>
     <line x1="40" y1="230" x2="202" y2="196"/>
   </g>
-  <text x="55" y="135" font-family="sans-serif" font-size="13" fill="#b45309" font-weight="700">光</text>
+  <text x="55" y="135" font-family="sans-serif" font-size="13" class="light-orange" font-weight="700">光</text>
 
-  <!-- 眼球本体 -->
-  <circle cx="360" cy="190" r="150" fill="#eff6ff" stroke="#475569" stroke-width="2"/>
-  <!-- 網膜（内壁を強調：右側の弧） -->
+  <circle cx="360" cy="190" r="150" class="vitreous" stroke-width="2"/>
   <path d="M360,40 A150 150 0 0 1 360,340" fill="none" stroke="#f472b6" stroke-width="6" stroke-opacity="0.7"/>
-  <!-- 角膜（左の出っ張り） -->
   <path d="M210,160 A60 60 0 0 0 210,220" fill="#dbeafe" stroke="#475569" stroke-width="2"/>
-  <!-- 虹彩 -->
   <line x1="222" y1="150" x2="240" y2="172" stroke="#475569" stroke-width="5"/>
   <line x1="222" y1="230" x2="240" y2="208" stroke="#475569" stroke-width="5"/>
-  <!-- 水晶体 -->
   <ellipse cx="258" cy="190" rx="20" ry="40" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
-  <!-- 黄斑（網膜中心、右） -->
   <circle cx="508" cy="190" r="9" fill="#eab308"/>
-  <!-- 視神経（右後方） -->
   <path d="M505,215 C540,250 560,270 585,285" fill="none" stroke="#a78bfa" stroke-width="8" stroke-linecap="round"/>
 
-  <!-- ラベルと引き出し線 -->
-  <g font-family="sans-serif" font-size="13" fill="#1e293b">
-    <line x1="205" y1="120" x2="218" y2="165" stroke="#94a3b8" stroke-width="1"/>
+  <g font-family="sans-serif" font-size="13" class="t-h1">
+    <line x1="205" y1="120" x2="218" y2="165" class="leader" stroke-width="1"/>
     <text x="200" y="112" text-anchor="middle">角膜</text>
 
-    <line x1="240" y1="95" x2="250" y2="155" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="240" y1="95" x2="250" y2="155" class="leader" stroke-width="1"/>
     <text x="240" y="87" text-anchor="middle">瞳孔・虹彩</text>
 
-    <line x1="258" y1="290" x2="258" y2="232" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="258" y1="290" x2="258" y2="232" class="leader" stroke-width="1"/>
     <text x="258" y="306" text-anchor="middle">水晶体（ピント調節）</text>
 
-    <text x="370" y="195" text-anchor="middle" fill="#64748b" font-size="12">硝子体</text>
+    <text x="370" y="195" text-anchor="middle" class="t-h3" font-size="12">硝子体</text>
 
-    <line x1="560" y1="120" x2="512" y2="182" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="560" y1="120" x2="512" y2="182" class="leader" stroke-width="1"/>
     <text x="595" y="114" text-anchor="middle">網膜（錐体・桿体）</text>
 
-    <line x1="545" y1="165" x2="514" y2="186" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="545" y1="165" x2="514" y2="186" class="leader" stroke-width="1"/>
     <text x="558" y="160" text-anchor="middle" font-size="12" fill="#a16207">黄斑</text>
 
-    <line x1="620" y1="300" x2="575" y2="280" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="620" y1="300" x2="575" y2="280" class="leader" stroke-width="1"/>
     <text x="650" y="306" text-anchor="middle" fill="#7c3aed">視神経 → 脳へ</text>
   </g>
 </svg>

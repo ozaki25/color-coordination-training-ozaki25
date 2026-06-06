@@ -1,43 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 430" role="img" aria-labelledby="title desc">
   <title id="title">混同色線の概念図</title>
   <desc id="desc">色度図（色の地図）の上で、P型・D型の人が同じ色に見えてしまう色を結んだ直線が混同色線。同じ線上の色は色相では区別しにくい。</desc>
-  <rect width="620" height="430" fill="#ffffff"/>
-  <text x="310" y="30" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#1e293b">混同色線（色度図の上で同じ色に見える色を結ぶ線）</text>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h3 { fill: #64748b; }
+    .t-muted { fill: #94a3b8; }
+    .ng-text { fill: #b91c1c; }
+    .chart-area { fill: #f1f5f9; stroke: #94a3b8; }
+    .white-dot { fill: #ffffff; stroke: #475569; }
+    .dot-edge { stroke: #475569; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h3 { fill: #94a3b8; }
+      .t-muted { fill: #64748b; }
+      .ng-text { fill: #fca5a5; }
+      .chart-area { fill: #2a2a2a; stroke: #94a3b8; }
+      .white-dot { fill: #e2e8f0; stroke: #94a3b8; }
+      .dot-edge { stroke: #94a3b8; }
+    }
+  </style>
+  <rect class="bg" width="620" height="430"/>
+  <text x="310" y="30" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" class="t-h1">混同色線（色度図の上で同じ色に見える色を結ぶ線）</text>
 
-  <!-- 馬蹄形（色度図の外形・簡略） -->
   <path d="M150,360 C95,300 88,250 98,200 C108,150 122,108 150,86 C200,58 330,56 372,112 C424,156 462,206 470,250 Z"
-        fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
-  <text x="250" y="400" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">馬蹄形＝色度図（色の地図）</text>
+        class="chart-area" stroke-width="1.5"/>
+  <text x="250" y="400" text-anchor="middle" font-family="sans-serif" font-size="12" class="t-h3">馬蹄形＝色度図（色の地図）</text>
 
-  <!-- 白色点 -->
-  <circle cx="258" cy="225" r="6" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
-  <text x="258" y="246" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#64748b">白</text>
+  <circle cx="258" cy="225" r="6" class="white-dot" stroke-width="1.5"/>
+  <text x="258" y="246" text-anchor="middle" font-family="sans-serif" font-size="11" class="t-h3">白</text>
 
-  <!-- 混同色線（P型・D型：赤方向に収束する2本の点線） -->
   <g stroke="#dc2626" stroke-width="1.6" stroke-dasharray="5 4">
     <line x1="175" y1="120" x2="455" y2="248"/>
     <line x1="150" y1="250" x2="455" y2="262"/>
   </g>
 
-  <!-- 線上の色点（同じ線上 = 同じ色に見える） -->
-  <!-- 線1: 緑 と 赤 -->
-  <circle cx="185" cy="125" r="11" fill="#22a722" stroke="#475569" stroke-width="1"/>
-  <circle cx="320" cy="186" r="11" fill="#b45309" stroke="#475569" stroke-width="1"/>
-  <circle cx="450" cy="246" r="11" fill="#e60000" stroke="#475569" stroke-width="1"/>
-  <!-- 線2: 灰みの緑 と ピンク -->
-  <circle cx="200" cy="251" r="11" fill="#9aa77a" stroke="#475569" stroke-width="1"/>
-  <circle cx="430" cy="261" r="11" fill="#e58fa0" stroke="#475569" stroke-width="1"/>
+  <circle cx="185" cy="125" r="11" fill="#22a722" class="dot-edge" stroke-width="1"/>
+  <circle cx="320" cy="186" r="11" fill="#b45309" class="dot-edge" stroke-width="1"/>
+  <circle cx="450" cy="246" r="11" fill="#e60000" class="dot-edge" stroke-width="1"/>
+  <circle cx="200" cy="251" r="11" fill="#9aa77a" class="dot-edge" stroke-width="1"/>
+  <circle cx="430" cy="261" r="11" fill="#e58fa0" class="dot-edge" stroke-width="1"/>
 
-  <!-- 収束方向の矢印 -->
   <text x="500" y="252" font-family="sans-serif" font-size="12" fill="#dc2626" font-weight="700">→ 赤方向へ収束</text>
 
-  <!-- 凡例・注記 -->
-  <g font-family="sans-serif" font-size="13" fill="#1e293b">
+  <g font-family="sans-serif" font-size="13" class="t-h1">
     <text x="190" y="112" text-anchor="middle" font-size="11">緑</text>
     <text x="320" y="172" text-anchor="middle" font-size="11">茶</text>
     <text x="455" y="232" text-anchor="middle" font-size="11">赤</text>
   </g>
 
-  <rect x="60" y="410" width="500" height="0" />
-  <text x="310" y="424" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#b91c1c" font-weight="700">同じ点線の上にある色（緑・茶・赤）は、P型・D型には似た色に見える</text>
+  <text x="310" y="424" text-anchor="middle" font-family="sans-serif" font-size="13" class="ng-text" font-weight="700">同じ点線の上にある色（緑・茶・赤）は、P型・D型には似た色に見える</text>
 </svg>

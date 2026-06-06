@@ -1,33 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
   <title id="title">3種類の錐体の分光感度曲線</title>
   <desc id="desc">S錐体は短波長（青、約420nm）、M錐体は中波長（緑、約534nm）、L錐体は長波長（赤〜黄、約564nm）にピークをもつ感度曲線。横軸は波長、縦軸は相対感度。</desc>
-  <rect width="760" height="360" fill="#ffffff"/>
-  <text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#1e293b">3種類の錐体の感度（分光感度曲線）</text>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h3 { fill: #64748b; }
+    .t-muted { fill: #94a3b8; }
+    .axis { stroke: #475569; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h3 { fill: #94a3b8; }
+      .t-muted { fill: #64748b; }
+      .axis { stroke: #94a3b8; }
+    }
+  </style>
+  <rect class="bg" width="760" height="360"/>
+  <text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" class="t-h1">3種類の錐体の感度（分光感度曲線）</text>
 
-  <!-- 軸 -->
-  <line x1="70" y1="300" x2="740" y2="300" stroke="#475569" stroke-width="1.5"/>
-  <line x1="70" y1="60" x2="70" y2="300" stroke="#475569" stroke-width="1.5"/>
+  <line x1="70" y1="300" x2="740" y2="300" class="axis" stroke-width="1.5"/>
+  <line x1="70" y1="60" x2="70" y2="300" class="axis" stroke-width="1.5"/>
 
-  <!-- 縦軸ラベル -->
-  <text x="40" y="180" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#64748b" transform="rotate(-90 40 180)">相対感度</text>
+  <text x="40" y="180" text-anchor="middle" font-family="sans-serif" font-size="13" class="t-h3" transform="rotate(-90 40 180)">相対感度</text>
 
-  <!-- 横軸目盛り（線形 380〜700nm を x70〜740 に） -->
-  <g font-family="sans-serif" font-size="12" fill="#1e293b" text-anchor="middle">
-    <line x1="114" y1="300" x2="114" y2="308" stroke="#475569"/><text x="114" y="324">400</text>
-    <line x1="333" y1="300" x2="333" y2="308" stroke="#475569"/><text x="333" y="324">500</text>
-    <line x1="552" y1="300" x2="552" y2="308" stroke="#475569"/><text x="552" y="324">600</text>
-    <line x1="740" y1="300" x2="740" y2="308" stroke="#475569"/><text x="740" y="324">700</text>
-    <text x="405" y="346" font-size="13" fill="#64748b">波長 (nm)</text>
+  <g font-family="sans-serif" font-size="12" class="t-h1" text-anchor="middle">
+    <line x1="114" y1="300" x2="114" y2="308" class="axis"/><text x="114" y="324">400</text>
+    <line x1="333" y1="300" x2="333" y2="308" class="axis"/><text x="333" y="324">500</text>
+    <line x1="552" y1="300" x2="552" y2="308" class="axis"/><text x="552" y="324">600</text>
+    <line x1="740" y1="300" x2="740" y2="308" class="axis"/><text x="740" y="324">700</text>
+    <text x="405" y="346" font-size="13" class="t-h3">波長 (nm)</text>
   </g>
 
-  <!-- S錐体（青、ピーク約420nm → x157） -->
   <path d="M70,300 C110,300 130,80 157,75 C184,80 230,300 290,300 Z" fill="#1f6fd6" fill-opacity="0.18" stroke="#1f6fd6" stroke-width="2.5"/>
-  <!-- M錐体（緑、ピーク約534nm → x407） -->
   <path d="M250,300 C320,298 370,72 407,68 C448,72 520,298 600,300 Z" fill="#2ca02c" fill-opacity="0.18" stroke="#2ca02c" stroke-width="2.5"/>
-  <!-- L錐体（赤、ピーク約564nm → x472） -->
   <path d="M300,300 C380,298 440,70 472,66 C512,70 600,298 700,300 Z" fill="#d62728" fill-opacity="0.16" stroke="#d62728" stroke-width="2.5"/>
 
-  <!-- ピークラベル -->
   <g font-family="sans-serif" font-size="14" font-weight="700">
     <text x="157" y="62" text-anchor="middle" fill="#1f6fd6">S錐体</text>
     <text x="157" y="290" text-anchor="middle" font-size="11" font-weight="400" fill="#1f6fd6">約420nm</text>
@@ -37,5 +44,5 @@
     <text x="500" y="290" text-anchor="middle" font-size="11" font-weight="400" fill="#d62728">約564nm</text>
   </g>
 
-  <text x="380" y="358" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">S＝短波長（青）・M＝中波長（緑）・L＝長波長（赤〜黄）に感度のピークをもつ</text>
+  <text x="380" y="358" text-anchor="middle" font-family="sans-serif" font-size="11" class="t-muted">S＝短波長（青）・M＝中波長（緑）・L＝長波長（赤〜黄）に感度のピークをもつ</text>
 </svg>

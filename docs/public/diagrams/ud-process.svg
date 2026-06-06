@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-labelledby="title desc">
+  <title id="title">色のUD設計の5ステップ</title>
+  <desc id="desc">現状把握、問題の洗い出し、改善案策定、シミュレーション確認、実施・評価の5ステップが循環するUD設計プロセスの図。</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h2 { fill: #475569; }
+    .t-h3 { fill: #64748b; }
+    .step { fill: #eef2ff; stroke: #4338ca; }
+    .step-num { fill: #4338ca; }
+    .step-text { fill: #1e293b; }
+    .arrow { fill: #4338ca; }
+    .loop-arrow { stroke: #4338ca; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h2 { fill: #cbd5e1; }
+      .t-h3 { fill: #94a3b8; }
+      .step { fill: #2a2640; stroke: #a5b4fc; }
+      .step-num { fill: #a5b4fc; }
+      .step-text { fill: #e2e8f0; }
+      .arrow { fill: #a5b4fc; }
+      .loop-arrow { stroke: #a5b4fc; }
+    }
+  </style>
+  <rect class="bg" width="800" height="320"/>
+
+  <text x="400" y="32" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" class="t-h1">色のUD設計の5ステップ</text>
+
+  <!-- 5つのステップを横並びで -->
+  <g font-family="sans-serif">
+    <!-- Step 1 -->
+    <rect x="30" y="80" width="130" height="110" rx="10" class="step" stroke-width="2"/>
+    <text x="95" y="108" text-anchor="middle" font-size="24" font-weight="700" class="step-num">1</text>
+    <text x="95" y="138" text-anchor="middle" font-size="14" font-weight="700" class="step-text">現状把握</text>
+    <text x="95" y="160" text-anchor="middle" font-size="11" class="step-text">使っている色の</text>
+    <text x="95" y="176" text-anchor="middle" font-size="11" class="step-text">一覧化</text>
+
+    <!-- Arrow 1→2 -->
+    <path d="M165,135 L185,135 L185,128 L195,140 L185,152 L185,145 L165,145 Z" class="arrow"/>
+
+    <!-- Step 2 -->
+    <rect x="200" y="80" width="130" height="110" rx="10" class="step" stroke-width="2"/>
+    <text x="265" y="108" text-anchor="middle" font-size="24" font-weight="700" class="step-num">2</text>
+    <text x="265" y="138" text-anchor="middle" font-size="14" font-weight="700" class="step-text">問題の洗い出し</text>
+    <text x="265" y="160" text-anchor="middle" font-size="11" class="step-text">混同しやすい色や</text>
+    <text x="265" y="176" text-anchor="middle" font-size="11" class="step-text">明度差不足の特定</text>
+
+    <!-- Arrow 2→3 -->
+    <path d="M335,135 L355,135 L355,128 L365,140 L355,152 L355,145 L335,145 Z" class="arrow"/>
+
+    <!-- Step 3 -->
+    <rect x="370" y="80" width="130" height="110" rx="10" class="step" stroke-width="2"/>
+    <text x="435" y="108" text-anchor="middle" font-size="24" font-weight="700" class="step-num">3</text>
+    <text x="435" y="138" text-anchor="middle" font-size="14" font-weight="700" class="step-text">改善案の策定</text>
+    <text x="435" y="160" text-anchor="middle" font-size="11" class="step-text">色変更・手がかり</text>
+    <text x="435" y="176" text-anchor="middle" font-size="11" class="step-text">追加など複数案</text>
+
+    <!-- Arrow 3→4 -->
+    <path d="M505,135 L525,135 L525,128 L535,140 L525,152 L525,145 L505,145 Z" class="arrow"/>
+
+    <!-- Step 4 -->
+    <rect x="540" y="80" width="130" height="110" rx="10" class="step" stroke-width="2"/>
+    <text x="605" y="108" text-anchor="middle" font-size="24" font-weight="700" class="step-num">4</text>
+    <text x="605" y="138" text-anchor="middle" font-size="14" font-weight="700" class="step-text">確認</text>
+    <text x="605" y="160" text-anchor="middle" font-size="11" class="step-text">シミュレーターと</text>
+    <text x="605" y="176" text-anchor="middle" font-size="11" class="step-text">当事者ヒアリング</text>
+
+    <!-- Arrow 4→5 -->
+    <path d="M675,135 L695,135 L695,128 L705,140 L695,152 L695,145 L675,145 Z" class="arrow"/>
+
+    <!-- Step 5 -->
+    <rect x="710" y="80" width="80" height="110" rx="10" class="step" stroke-width="2"/>
+    <text x="750" y="108" text-anchor="middle" font-size="24" font-weight="700" class="step-num">5</text>
+    <text x="750" y="138" text-anchor="middle" font-size="14" font-weight="700" class="step-text">実施・</text>
+    <text x="750" y="156" text-anchor="middle" font-size="14" font-weight="700" class="step-text">評価</text>
+  </g>
+
+  <!-- 継続改善のループ -->
+  <path d="M750,200 Q750,260 400,260 Q50,260 95,205" fill="none" class="loop-arrow" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <path d="M95,205 L88,212 L106,212 Z" class="arrow"/>
+  <text x="400" y="282" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" class="t-h1">継続的改善（サイクルとして繰り返す）</text>
+
+  <text x="400" y="304" text-anchor="middle" font-family="sans-serif" font-size="11" class="t-h3">設計の初期段階から組み込むほど、後戻りが少なく低コストで対応できます</text>
+</svg>

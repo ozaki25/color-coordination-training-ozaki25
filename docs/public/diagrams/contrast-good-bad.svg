@@ -1,42 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="title desc">
   <title id="title">見やすい配色と見えにくい配色の比較</title>
   <desc id="desc">明度差が大きい配色（白地に黒文字、黒地に黄文字）は見やすく、明度差が小さい配色（赤地に緑文字、水色地に白文字）は見えにくい。明度差が見やすさを左右することを示す。</desc>
-  <rect width="800" height="300" fill="#ffffff"/>
-  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#1e293b">配色の見やすさは「明度差」で決まる</text>
+  <style>
+    .bg { fill: #ffffff; }
+    .t-h1 { fill: #1e293b; }
+    .t-h2 { fill: #475569; }
+    .ok-text { fill: #15803d; }
+    .ng-text { fill: #b91c1c; }
+    .panel { fill: #f8fafc; stroke: #e2e8f0; }
+    .stroke-faint { stroke: #94a3b8; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1f1f1f; }
+      .t-h1 { fill: #e2e8f0; }
+      .t-h2 { fill: #cbd5e1; }
+      .ok-text { fill: #86efac; }
+      .ng-text { fill: #fca5a5; }
+      .panel { fill: #2a2a2a; stroke: #444444; }
+      .stroke-faint { stroke: #64748b; }
+    }
+  </style>
+  <rect class="bg" width="800" height="300"/>
+  <text x="400" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" class="t-h1">配色の見やすさは「明度差」で決まる</text>
 
-  <!-- 見やすい -->
-  <text x="40" y="66" font-family="sans-serif" font-size="15" font-weight="700" fill="#15803d">◎ 見やすい（明度差が大きい）</text>
+  <text x="40" y="66" font-family="sans-serif" font-size="15" font-weight="700" class="ok-text">◎ 見やすい（明度差が大きい）</text>
 
   <g>
-    <rect x="40" y="80" width="160" height="86" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+    <rect x="40" y="80" width="160" height="86" rx="6" fill="#ffffff" class="stroke-faint"/>
     <text x="120" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#000000">文字 Aa 5</text>
-    <text x="120" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">白地 × 黒文字</text>
-    <text x="120" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#15803d">コントラスト比 21:1 ◎</text>
+    <text x="120" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" class="t-h2">白地 × 黒文字</text>
+    <text x="120" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" class="ok-text">コントラスト比 21:1 ◎</text>
   </g>
   <g>
-    <rect x="220" y="80" width="160" height="86" rx="6" fill="#1a1a1a" stroke="#94a3b8"/>
+    <rect x="220" y="80" width="160" height="86" rx="6" fill="#1a1a1a" class="stroke-faint"/>
     <text x="300" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#ffd000">文字 Aa 5</text>
-    <text x="300" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">黒地 × 黄文字</text>
-    <text x="300" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#15803d">明度差が大きい ◎</text>
+    <text x="300" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" class="t-h2">黒地 × 黄文字</text>
+    <text x="300" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" class="ok-text">明度差が大きい ◎</text>
   </g>
 
-  <!-- 見えにくい -->
-  <text x="420" y="66" font-family="sans-serif" font-size="15" font-weight="700" fill="#b91c1c">✕ 見えにくい（明度差が小さい）</text>
+  <text x="420" y="66" font-family="sans-serif" font-size="15" font-weight="700" class="ng-text">✕ 見えにくい（明度差が小さい）</text>
 
   <g>
-    <rect x="420" y="80" width="160" height="86" rx="6" fill="#e60000" stroke="#94a3b8"/>
+    <rect x="420" y="80" width="160" height="86" rx="6" fill="#e60000" class="stroke-faint"/>
     <text x="500" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#00a040">文字 Aa 5</text>
-    <text x="500" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">赤地 × 緑文字</text>
-    <text x="500" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#b91c1c">P型・D型に困難 ✕</text>
+    <text x="500" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" class="t-h2">赤地 × 緑文字</text>
+    <text x="500" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" class="ng-text">P型・D型に困難 ✕</text>
   </g>
   <g>
-    <rect x="600" y="80" width="160" height="86" rx="6" fill="#7ec8e3" stroke="#94a3b8"/>
+    <rect x="600" y="80" width="160" height="86" rx="6" fill="#7ec8e3" class="stroke-faint"/>
     <text x="680" y="132" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#ffffff">文字 Aa 5</text>
-    <text x="680" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">水色地 × 白文字</text>
-    <text x="680" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#b91c1c">明度差不足 ✕</text>
+    <text x="680" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" class="t-h2">水色地 × 白文字</text>
+    <text x="680" y="200" text-anchor="middle" font-family="sans-serif" font-size="12" class="ng-text">明度差不足 ✕</text>
   </g>
 
-  <rect x="40" y="220" width="720" height="56" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
-  <text x="60" y="244" font-family="sans-serif" font-size="13" fill="#1e293b" font-weight="700">確認のコツ：</text>
-  <text x="60" y="265" font-family="sans-serif" font-size="13" fill="#334155">配色を白黒（グレースケール）に変換しても文字が読めれば、明度差は十分です。</text>
+  <rect x="40" y="220" width="720" height="56" rx="6" class="panel"/>
+  <text x="60" y="244" font-family="sans-serif" font-size="13" class="t-h1" font-weight="700">確認のコツ：</text>
+  <text x="60" y="265" font-family="sans-serif" font-size="13" class="t-h2">配色を白黒（グレースケール）に変換しても文字が読めれば、明度差は十分です。</text>
 </svg>
