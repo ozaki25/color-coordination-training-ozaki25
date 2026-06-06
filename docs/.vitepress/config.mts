@@ -16,7 +16,7 @@ export default withPwa(
         hostname: "https://color-coordination-test-training-ozaki25.vercel.app",
       },
       head: [
-        ["meta", { name: "theme-color", content: "#4338ca" }],
+        ["meta", { name: "theme-color", content: "#c2185b" }],
         ["meta", { name: "author", content: "ozaki25" }],
         ["meta", { property: "og:type", content: "website" }],
         ["meta", { property: "og:locale", content: "ja_JP" }],
@@ -32,9 +32,9 @@ export default withPwa(
       mermaid: {
         theme: "default",
         themeVariables: {
-          primaryColor: "#eef2ff",
+          primaryColor: "#fce4ec",
           primaryTextColor: "#1e293b",
-          primaryBorderColor: "#4338ca",
+          primaryBorderColor: "#c2185b",
           lineColor: "#475569",
           fontFamily: "sans-serif",
         },
@@ -172,7 +172,7 @@ export default withPwa(
           name: "色彩検定 UC 級 学習コンテンツ",
           short_name: "UC級",
           description: "色彩検定 UC 級の学習コンテンツ",
-          theme_color: "#4338ca",
+          theme_color: "#c2185b",
           background_color: "#ffffff",
           lang: "ja",
           display: "standalone",

@@ -1,48 +1,50 @@
 /**
  * VitePress theme customization
- * Primary: 藍紫 (#4338ca / indigo-700)
- * すべてのテキスト色は WCAG AA (4.5:1) 以上を満たす
+ * Primary: ラズベリー / マゼンタ (#c2185b)
+ * 色を扱う検定らしい華やかな色相。赤緑ではないため色のUD観点でも無難。
+ * すべてのテキスト色は WCAG AA (4.5:1) 以上を満たす。
  *
  * コントラスト比（白背景 #ffffff 対象）
- *   brand-1  #4338ca: 8.6:1  ✅
- *   brand-2  #3730a3: 10.5:1 ✅
- *   brand-3  #312e81: 12.6:1 ✅
+ *   brand-1  #c2185b: 5.9:1  ✅
+ *   brand-2  #ad1457: 7.0:1  ✅
+ *   brand-3  #880e4f: 9.6:1  ✅
+ *   白文字 on #c2185b: 5.9:1  ✅（ボタン）
  *
  * コントラスト比（ダーク背景 #1b1b1f 対象）
- *   brand-1  #a5b4fc: 10.2:1 ✅
- *   brand-2  #818cf8: 7.3:1  ✅
- *   brand-3  #6366f1: 5.0:1  ✅
+ *   brand-1  #f48fb1: 8.6:1  ✅
+ *   brand-2  #f06292: 6.4:1  ✅
+ *   brand-3  #ec407a: 4.9:1  ✅
  */
 
 :root {
-  --vp-c-brand-1: #4338ca;
-  --vp-c-brand-2: #3730a3;
-  --vp-c-brand-3: #312e81;
-  --vp-c-brand-soft: rgba(67, 56, 202, 0.14);
+  --vp-c-brand-1: #c2185b;
+  --vp-c-brand-2: #ad1457;
+  --vp-c-brand-3: #880e4f;
+  --vp-c-brand-soft: rgba(194, 24, 91, 0.14);
 
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: #ffffff;
-  --vp-button-brand-bg: #4338ca;
+  --vp-button-brand-bg: #c2185b;
   --vp-button-brand-hover-border: transparent;
   --vp-button-brand-hover-text: #ffffff;
-  --vp-button-brand-hover-bg: #3730a3;
+  --vp-button-brand-hover-bg: #ad1457;
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: #ffffff;
-  --vp-button-brand-active-bg: #312e81;
+  --vp-button-brand-active-bg: #880e4f;
 
   --vp-custom-block-tip-border: transparent;
-  --vp-custom-block-tip-text: #312e81;
-  --vp-custom-block-tip-bg: #eef2ff;
-  --vp-custom-block-tip-code-bg: rgba(67, 56, 202, 0.14);
+  --vp-custom-block-tip-text: #880e4f;
+  --vp-custom-block-tip-bg: #fce4ec;
+  --vp-custom-block-tip-code-bg: rgba(194, 24, 91, 0.14);
 }
 
 .dark {
-  --vp-c-brand-1: #a5b4fc;
-  --vp-c-brand-2: #818cf8;
-  --vp-c-brand-3: #6366f1;
-  --vp-c-brand-soft: rgba(129, 140, 248, 0.16);
+  --vp-c-brand-1: #f48fb1;
+  --vp-c-brand-2: #f06292;
+  --vp-c-brand-3: #ec407a;
+  --vp-c-brand-soft: rgba(244, 143, 177, 0.16);
 
-  --vp-custom-block-tip-text: #c7d2fe;
-  --vp-custom-block-tip-bg: rgba(67, 56, 202, 0.18);
-  --vp-custom-block-tip-code-bg: rgba(67, 56, 202, 0.28);
+  --vp-custom-block-tip-text: #f8bbd0;
+  --vp-custom-block-tip-bg: rgba(194, 24, 91, 0.20);
+  --vp-custom-block-tip-code-bg: rgba(194, 24, 91, 0.30);
 }

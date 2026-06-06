@@ -6,21 +6,21 @@
     .t-h1 { fill: #1e293b; }
     .t-h2 { fill: #475569; }
     .t-h3 { fill: #64748b; }
-    .step { fill: #eef2ff; stroke: #4338ca; }
-    .step-num { fill: #4338ca; }
+    .step { fill: #fce4ec; stroke: #c2185b; }
+    .step-num { fill: #c2185b; }
     .step-text { fill: #1e293b; }
-    .arrow { fill: #4338ca; }
-    .loop-arrow { stroke: #4338ca; }
+    .arrow { fill: #c2185b; }
+    .loop-arrow { stroke: #c2185b; }
     @media (prefers-color-scheme: dark) {
       .bg { fill: #1f1f1f; }
       .t-h1 { fill: #e2e8f0; }
       .t-h2 { fill: #cbd5e1; }
       .t-h3 { fill: #94a3b8; }
-      .step { fill: #2a2640; stroke: #a5b4fc; }
-      .step-num { fill: #a5b4fc; }
+      .step { fill: #3a2230; stroke: #f48fb1; }
+      .step-num { fill: #f48fb1; }
       .step-text { fill: #e2e8f0; }
-      .arrow { fill: #a5b4fc; }
-      .loop-arrow { stroke: #a5b4fc; }
+      .arrow { fill: #f48fb1; }
+      .loop-arrow { stroke: #f48fb1; }
     }
   </style>
   <rect class="bg" width="800" height="320"/>
