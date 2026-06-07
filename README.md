@@ -1,6 +1,6 @@
 # 色彩検定 UC 級 学習コンテンツ
 
-[![CI](https://github.com/ozaki25/color-coordination-test-training-ozaki25/actions/workflows/build.yml/badge.svg)](https://github.com/ozaki25/color-coordination-test-training-ozaki25/actions/workflows/build.yml)
+[![CI](https://github.com/ozaki25/color-coordination-training-ozaki25/actions/workflows/build.yml/badge.svg)](https://github.com/ozaki25/color-coordination-training-ozaki25/actions/workflows/build.yml)
 
 色彩検定 UC 級（色のユニバーサルデザイン級）の合格を目指す学習コンテンツです。
 
@@ -75,7 +75,7 @@ scripts/quiz-validate.mjs      ドリルデータの検証スクリプト
 ## デプロイ
 
 - main ブランチへの push で Vercel が自動デプロイします
-- 公開先: https://color-coordination-test-training-ozaki25.vercel.app
+- 公開先: https://color-coordination-training-ozaki25.vercel.app
 
 ## 参考にしたリポジトリ
 
