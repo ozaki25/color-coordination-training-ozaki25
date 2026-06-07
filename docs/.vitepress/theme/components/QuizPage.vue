@@ -148,10 +148,10 @@ function shuffleArray<T>(arr: T[]): T[] {
   return a
 }
 
-const quizCardRef = useTemplateRef<{ focusFirstChoice: () => void }>('quizCard')
+const quizCardRef = useTemplateRef<{ focusQuestion: () => void }>('quizCard')
 
 function focusCard() {
-  nextTick(() => quizCardRef.value?.focusFirstChoice())
+  nextTick(() => quizCardRef.value?.focusQuestion())
 }
 
 const orderedQuizzes = ref<Quiz[]>(sampleQuizzes())
