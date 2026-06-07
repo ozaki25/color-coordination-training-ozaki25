@@ -123,7 +123,7 @@ export const chapter4: Quiz[] = [
       "D型弱度（Deuteranomaly）",
       "P型強度（Protanopia）",
       "T型（3型）",
-      "A型（全色盲）",
+      "A型",
     ],
     answer: 0,
     explanation:
