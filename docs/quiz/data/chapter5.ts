@@ -2,7 +2,7 @@ import type { Quiz } from "../types";
 
 export const chapter5: Quiz[] = [
   {
-    id: "q401",
+    id: "q501",
     lesson: "lesson21",
     difficulty: "easy",
     question: "加齢にともなう視機能の変化として、適切でないものはどれですか。",
@@ -16,7 +16,7 @@ export const chapter5: Quiz[] = [
     explanation: "加齢ではコントラスト感度はむしろ低下し、淡い色や明度差の小さい色は見分けにくくなります。老眼の進行、暗順応の遅れ、グレア感受性の増大はいずれも加齢で起こる変化です。",
   },
   {
-    id: "q402",
+    id: "q502",
     lesson: "lesson21",
     difficulty: "easy",
     question: "加齢で老眼（老視）が起こる直接の原因として、正しいものはどれですか。",
@@ -30,7 +30,7 @@ export const chapter5: Quiz[] = [
     explanation: "老眼は水晶体の弾力性が低下し、毛様体で厚みを変えて近くにピントを合わせる調節ができなくなることで起こります。桿体や瞳孔、錐体の数とは直接関係しません。",
   },
   {
-    id: "q403",
+    id: "q503",
     lesson: "lesson21",
     difficulty: "normal",
     question: "暗順応の遅れに直接かかわる網膜の細胞はどれですか。",
@@ -44,7 +44,7 @@ export const chapter5: Quiz[] = [
     explanation: "暗順応は主に網膜の桿体が担います。加齢で桿体の感度が低下し、ロドプシンの再合成も遅くなるため、暗い場所に目が慣れるまで時間がかかるようになります。錐体は色覚・明所視を担います。",
   },
   {
-    id: "q404",
+    id: "q504",
     lesson: "lesson21",
     difficulty: "normal",
     question: "明順応と暗順応の説明として正しいものはどれですか。",
@@ -58,7 +58,7 @@ export const chapter5: Quiz[] = [
     explanation: "明順応は暗い場所から明るい場所に出たときに目が慣れるプロセスで、主に錐体が担います。暗順応は明るい場所から暗い場所に入ったときのプロセスで、主に桿体が担います。加齢では桿体の感度低下によりとくに暗順応が遅くなります。",
   },
   {
-    id: "q405",
+    id: "q505",
     lesson: "lesson22",
     difficulty: "easy",
     question: "加齢による水晶体の黄変について、正しい説明はどれですか。",
@@ -72,7 +72,7 @@ export const chapter5: Quiz[] = [
     explanation: "加齢で水晶体が黄みがかることを黄変といいます。黄みがかった水晶体は短波長（青系）の光を吸収しやすくなるため、青が暗く見えにくくなります。",
   },
   {
-    id: "q406",
+    id: "q506",
     lesson: "lesson22",
     difficulty: "hard",
     question: "加齢にともなう水晶体の黄変によって、特に見えにくくなる色はどれですか。",
@@ -86,7 +86,7 @@ export const chapter5: Quiz[] = [
     explanation: "加齢により水晶体が黄みを帯びると、短波長の青・紫系の光が通りにくくなり見えにくくなります。長波長の赤系は比較的影響を受けにくいのが特徴です。",
   },
   {
-    id: "q407",
+    id: "q507",
     lesson: "lesson22",
     difficulty: "normal",
     question: "水晶体の黄変により高齢者が見えにくくなりやすいものとして、最も適切なものはどれですか。",
@@ -100,7 +100,7 @@ export const chapter5: Quiz[] = [
     explanation: "黄変では短波長（青系）が見えにくくなるため、青信号、ガスコンロの青い炎、青い文字などが暗く感じられます。赤や黄、白地に黒の文字は比較的影響を受けにくい組み合わせです。",
   },
   {
-    id: "q409",
+    id: "q508",
     lesson: "lesson22",
     difficulty: "normal",
     question: "グレア（まぶしさ）に関する説明として、適切でないものはどれですか。",
@@ -114,7 +114,7 @@ export const chapter5: Quiz[] = [
     explanation: "明るくしすぎるとかえってグレアを生み見えにくくなることがあり、明るくしすぎないことも大切です。グレアには不能グレアと不快グレアがあり、加齢による水晶体の混濁で光が散乱し感じやすくなります。",
   },
   {
-    id: "q410",
+    id: "q509",
     lesson: "lesson22",
     difficulty: "normal",
     question: "夜間の対向車のヘッドライトで前方が見えなくなる現象は、どのグレアにあたりますか。",
@@ -128,7 +128,7 @@ export const chapter5: Quiz[] = [
     explanation: "対向車のヘッドライトで対象が見えなくなるほど強いグレアは不能グレア（Disability Glare）です。不快グレアは見えるが不快・疲れを感じるもので、蛍光灯や光沢紙の反射などが例です。",
   },
   {
-    id: "q411",
+    id: "q510",
     lesson: "lesson22",
     difficulty: "normal",
     question: "高齢者向けに青系の色を使う場合の配慮として、最も適切なものはどれですか。",
@@ -142,7 +142,7 @@ export const chapter5: Quiz[] = [
     explanation: "黄変で青が暗く見えるため、青と白や黄など明度差のある色を組み合わせ、文字・形・アイコンも併用するのが有効です。青と黒は明度差が小さく区別しにくく、青だけで重要情報を伝えるのは避けます。",
   },
   {
-    id: "q412",
+    id: "q511",
     lesson: "lesson22",
     difficulty: "hard",
     question: "高齢者のグレア対策として、適切でないものはどれですか。",
@@ -156,7 +156,7 @@ export const chapter5: Quiz[] = [
     explanation: "水晶体内の光散乱は瞳孔サイズに関係なく起きるため、瞳孔を縮めてもグレアは軽減されず、高照度はかえってグレアを増大させます。間接照明・拡散照明、非光沢素材、輝度の調整が有効な対策です。",
   },
   {
-    id: "q413",
+    id: "q512",
     lesson: "lesson23",
     difficulty: "easy",
     question: "白内障の説明として最も適切なものはどれですか。",
@@ -170,7 +170,7 @@ export const chapter5: Quiz[] = [
     explanation: "白内障は水晶体が濁る病気で、加齢でほとんどの人に起こります。黄斑の変性は加齢黄斑変性、視野が周辺から欠けるのは緑内障、糖尿病に伴うのは糖尿病網膜症で、別の疾病です。",
   },
   {
-    id: "q414",
+    id: "q513",
     lesson: "lesson23",
     difficulty: "normal",
     question: "白内障の治療について、正しい説明はどれですか。",
@@ -184,7 +184,7 @@ export const chapter5: Quiz[] = [
     explanation: "白内障は混濁した水晶体を取り除き、人工レンズ（眼内レンズ）に置き換える手術で治療できます。安全性が高く、日本でも年間100万件以上行われています。点眼薬で混濁を元に戻すことはできません。",
   },
   {
-    id: "q415",
+    id: "q514",
     lesson: "lesson23",
     difficulty: "hard",
     question: "水晶体の黄変と白内障の関係について、正しい説明はどれですか。",
@@ -198,7 +198,7 @@ export const chapter5: Quiz[] = [
     explanation: "黄変は加齢で水晶体が黄みがかる変化、白内障は水晶体が濁る病気で、生理的変化と病的変化として区別されます。両者は連続的に進行することもあります。黄変は青系が見えにくくなる現象で、明るく見えるようになるわけではありません。",
   },
   {
-    id: "q416",
+    id: "q515",
     lesson: "lesson23",
     difficulty: "normal",
     question: "加齢黄斑変性の見え方の特徴として最も適切なものはどれですか。",
@@ -212,7 +212,7 @@ export const chapter5: Quiz[] = [
     explanation: "加齢黄斑変性は網膜中心の黄斑が変性する病気で、視野の中心が歪んで見えたり（変視症）、中心が暗く欠ける（中心暗点）などの症状が出ます。周辺視野は保たれることが多いのが特徴です。",
   },
   {
-    id: "q417",
+    id: "q516",
     lesson: "lesson23",
     difficulty: "hard",
     question: "視野が周辺から欠けていく代表的な加齢眼疾病はどれですか。",
@@ -226,7 +226,7 @@ export const chapter5: Quiz[] = [
     explanation: "緑内障は視神経が障害される病気で、視野が周辺から欠けていくのが特徴です。白内障は霞み、加齢黄斑変性は中心の歪み、老眼はピント調節の低下で、いずれも症状の出方が異なります。",
   },
   {
-    id: "q418",
+    id: "q517",
     lesson: "lesson24",
     difficulty: "easy",
     question: "ロービジョンの説明として最も適切なものはどれですか。",
@@ -240,7 +240,7 @@ export const chapter5: Quiz[] = [
     explanation: "ロービジョンは矯正しても日常・職業生活に支障がある程度の見え方で、視覚を活用できる範囲がある状態です。全盲はほぼ視覚情報を利用できない状態でロービジョンとは区別され、色覚特性や眼精疲労とも異なる概念です。",
   },
   {
-    id: "q419",
+    id: "q518",
     lesson: "lesson24",
     difficulty: "normal",
     question: "高齢者・ロービジョンに共通する配慮として、最も汎用性が高いとされるものはどれですか。",
@@ -254,7 +254,7 @@ export const chapter5: Quiz[] = [
     explanation: "色覚特性者は色相が見分けにくくても明度差は感じられ、白内障で霞んでいても、視野が狭くても明度差が大きければ図と地を分離できます。明度差・コントラストの確保は最も汎用的な配慮です。",
   },
   {
-    id: "q420",
+    id: "q519",
     lesson: "lesson24",
     difficulty: "normal",
     question: "高齢者・ロービジョン向けの文字表現として、適切でないものはどれですか。",

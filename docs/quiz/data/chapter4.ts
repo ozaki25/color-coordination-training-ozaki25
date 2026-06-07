@@ -2,7 +2,7 @@ import type { Quiz } from "../types";
 
 export const chapter4: Quiz[] = [
   {
-    id: "q301",
+    id: "q401",
     lesson: "lesson13",
     difficulty: "easy",
     question: "色覚特性についての基本的なとらえ方として、最も適切なものはどれですか。",
@@ -17,7 +17,7 @@ export const chapter4: Quiz[] = [
       "色覚特性は色の見え方の個人差（多様性）であり、優劣ではありません。医学用語では「色覚異常」と呼ばれますが、本コンテンツでは多様性を尊重して「色覚特性」と呼びます。",
   },
   {
-    id: "q302",
+    id: "q402",
     lesson: "lesson13",
     difficulty: "easy",
     question: "一般的な色覚を持つタイプを表す記号はどれですか。",
@@ -27,7 +27,7 @@ export const chapter4: Quiz[] = [
       "一般的な色覚はC型（Common）と呼ばれます。P型・D型・T型はそれぞれ錐体の異常による色覚特性のタイプを表します。",
   },
   {
-    id: "q303",
+    id: "q403",
     lesson: "lesson13",
     difficulty: "normal",
     question: "先天性の色覚特性の中で、最も人数が多いタイプはどれですか。",
@@ -37,7 +37,7 @@ export const chapter4: Quiz[] = [
       "D型（2型）が約3.5%で最も多く、P型（1型）は約1.5%です。T型（3型）は非常にまれ、A型もまれなため、最多はD型です。",
   },
   {
-    id: "q304",
+    id: "q404",
     lesson: "lesson13",
     difficulty: "easy",
     question: "T型（3型）の特徴として、P型・D型と比べて正しいものはどれですか。",
@@ -52,7 +52,7 @@ export const chapter4: Quiz[] = [
       "T型は後天性（疾患や加齢）によって起こる場合が多いのが特徴です。先天性のT型は非常にまれです。P型・D型のほとんどが先天性であるのと対照的です。",
   },
   {
-    id: "q305",
+    id: "q405",
     lesson: "lesson14",
     difficulty: "normal",
     question: "P型（1型）色覚で異常がある錐体はどれですか。",
@@ -62,7 +62,7 @@ export const chapter4: Quiz[] = [
       "P型（1型）はL錐体（長波長＝赤系に感度をもつ錐体）の異常です。M錐体の異常はD型、S錐体の異常はT型です。桿体は明暗を担い色覚特性とは別です。",
   },
   {
-    id: "q306",
+    id: "q406",
     lesson: "lesson14",
     difficulty: "hard",
     question: "P型（1型）の見え方の特徴として正しいものはどれですか。",
@@ -77,7 +77,7 @@ export const chapter4: Quiz[] = [
       "P型はL錐体の異常により赤みが暗く弱く感じられ、赤と緑・赤と茶・赤と黒などが混同しやすくなります。すべてが灰色に見えるわけではありません。",
   },
   {
-    id: "q307",
+    id: "q407",
     lesson: "lesson14",
     difficulty: "hard",
     question:
@@ -93,7 +93,7 @@ export const chapter4: Quiz[] = [
       "P型強度（Protanopia）はL錐体が完全に欠損した状態、P型弱度（Protanomaly）はL錐体の感度が変化しつつ存在する状態です。一般に強度のほうが色の混同が強く生じます。",
   },
   {
-    id: "q308",
+    id: "q408",
     lesson: "lesson15",
     difficulty: "normal",
     question: "D型（2型）色覚で異常がある錐体はどれですか。",
@@ -103,7 +103,7 @@ export const chapter4: Quiz[] = [
       "D型（2型）はM錐体（中波長＝緑系に感度をもつ錐体）の異常です。L錐体の異常はP型、S錐体の異常はT型です。",
   },
   {
-    id: "q309",
+    id: "q409",
     lesson: "lesson15",
     difficulty: "easy",
     question:
@@ -114,7 +114,7 @@ export const chapter4: Quiz[] = [
       "D型はM錐体の異常により赤と緑、緑と茶などが混同しやすくなります。青と白や黒と白は明度差が大きく区別しやすいため誤りです。",
   },
   {
-    id: "q310",
+    id: "q410",
     lesson: "lesson15",
     difficulty: "normal",
     question:
@@ -130,7 +130,7 @@ export const chapter4: Quiz[] = [
       "D型弱度（Deuteranomaly）は日本男性の約2.5%を占め、全色覚特性タイプの中で最も頻度が高いタイプです。D型全体（約3.5%）が色覚特性者の中で最多であることとあわせて押さえます。",
   },
   {
-    id: "q311",
+    id: "q411",
     lesson: "lesson15",
     difficulty: "normal",
     question:
@@ -146,7 +146,7 @@ export const chapter4: Quiz[] = [
       "P型・D型でも明暗（明度差）は識別できるため、明度差を大きくすると見分けやすくなります。色相だけの変更や赤と緑の組み合わせは混同を招き、彩度をそろえるのは逆効果です。",
   },
   {
-    id: "q312",
+    id: "q412",
     lesson: "lesson16",
     difficulty: "hard",
     question: "色度図上の「混同色線」が表しているものはどれですか。",
@@ -161,7 +161,7 @@ export const chapter4: Quiz[] = [
       "混同色線は色度図上で同じ色に見えてしまう色どうしを結んだ直線です。同じ線上の色は色相では区別しにくいですが、明度差があれば識別できる場合があります。",
   },
   {
-    id: "q313",
+    id: "q413",
     lesson: "lesson16",
     difficulty: "normal",
     question: "T型（3型）の人が区別しにくい色の組み合わせはどれですか。",
@@ -171,7 +171,7 @@ export const chapter4: Quiz[] = [
       "T型（3型）はS錐体の異常で混同色線が青方向に収束し、青と黄の区別が困難になります。赤と緑の区別が困難なのはP型・D型です。",
   },
   {
-    id: "q315",
+    id: "q414",
     lesson: "lesson17",
     difficulty: "normal",
     question: "色の誤認の説明として最も適切なものはどれですか。",
@@ -186,7 +186,7 @@ export const chapter4: Quiz[] = [
       "色の誤認は、ある色を別の色と取り違えたり、本来とは違う色名で呼んでしまうことです。C型でも暗い場所や小面積では起こり、色覚特性者では混同色線上の色で起こりやすくなります。色名呼称の段階でずれることも含みます。",
   },
   {
-    id: "q316",
+    id: "q415",
     lesson: "lesson17",
     difficulty: "hard",
     question: "P型（1型）が赤を別の色として呼びやすい傾向として、最も適切なものはどれですか。",
@@ -201,7 +201,7 @@ export const chapter4: Quiz[] = [
       "P型はL錐体の感度が低いため赤が暗く感じられ、「茶」や「黒っぽい色」と呼ばれることがあります。赤と黒、赤と濃い緑、ピンクと水色などが混同しやすい組み合わせです。",
   },
   {
-    id: "q317",
+    id: "q416",
     lesson: "lesson17",
     difficulty: "normal",
     question: "色の誤認が起こりやすい条件として、適切でないものはどれですか。",
@@ -216,7 +216,7 @@ export const chapter4: Quiz[] = [
       "誤認は面積が小さい・暗い・彩度が低いなどの条件で起こりやすくなります。大きく彩度が高く明るい環境では識別しやすくなるため誤認は起こりにくく、適切でない条件にあたります。",
   },
   {
-    id: "q318",
+    id: "q417",
     lesson: "lesson18",
     difficulty: "normal",
     question:
@@ -232,7 +232,7 @@ export const chapter4: Quiz[] = [
       "P型・D型はX染色体に連鎖した劣性遺伝です。男性はX染色体が1本（XY）なので影響を受けやすく、女性（XX）は2本のうち1本が正常なら発症しにくいため、男性に多くなります。",
   },
   {
-    id: "q319",
+    id: "q418",
     lesson: "lesson18",
     difficulty: "hard",
     question: "色覚特性に関する遺伝の説明として、正しいものはどれですか。",
@@ -247,7 +247,7 @@ export const chapter4: Quiz[] = [
       "P型・D型はX染色体劣性遺伝で、女性は変異遺伝子をもつ保因者（キャリア）になり得ます。T型・A型は常染色体に関わる遺伝形式でP型・D型とは異なります。",
   },
   {
-    id: "q320",
+    id: "q419",
     lesson: "lesson19",
     difficulty: "easy",
     question: "色覚検査の代表的なツールである「石原色覚検査表」の説明として正しいものはどれですか。",
@@ -262,7 +262,7 @@ export const chapter4: Quiz[] = [
       "石原色覚検査表は、混同色線上の色のついた多数の点で数字や図形を描いた仮性同色表です。C型と色覚特性者で見え方が異なるしくみを使い、簡便なスクリーニング検査に使われます。",
   },
   {
-    id: "q321",
+    id: "q420",
     lesson: "lesson19",
     difficulty: "normal",
     question: "色覚検査の役割として最も適切なものはどれですか。",
@@ -277,7 +277,7 @@ export const chapter4: Quiz[] = [
       "色覚検査は、自分の色覚タイプや程度を知ることで配慮や対策を考える手がかりとする目的が中心です。職業からの排除や治療を前提とするものではなく、C型でも色のUDの配慮は必要です。",
   },
   {
-    id: "q322",
+    id: "q421",
     lesson: "lesson19",
     difficulty: "hard",
     question: "パネルD-15テストの説明として正しいものはどれですか。",
@@ -292,7 +292,7 @@ export const chapter4: Quiz[] = [
       "パネルD-15テストは、15個の色票を色相の順に並べる課題で、誤った並び順から色覚タイプを判定します。石原表（スクリーニング）に対し、タイプの判定や強度の確認に用いられます。",
   },
   {
-    id: "q323",
+    id: "q422",
     lesson: "lesson20",
     difficulty: "easy",
     question:
@@ -308,7 +308,7 @@ export const chapter4: Quiz[] = [
       "色覚特性は色が「見えていない」のではなく、特定の色の組み合わせが「区別しにくい」状態です。信号機やグラフの赤緑、地図の色分けなどで困りごとが生じます。",
   },
   {
-    id: "q325",
+    id: "q423",
     lesson: "lesson20",
     difficulty: "normal",
     question:

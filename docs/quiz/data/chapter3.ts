@@ -2,7 +2,7 @@ import type { Quiz } from "../types";
 
 export const chapter3: Quiz[] = [
   {
-    id: "q201",
+    id: "q301",
     lesson: "lesson09",
     difficulty: "easy",
     question: "色の三属性として正しい組み合わせはどれですか。",
@@ -17,7 +17,7 @@ export const chapter3: Quiz[] = [
       "色の三属性は色相（色みの違い）、明度（明るさ）、彩度（鮮やかさ）です。他の選択肢に含まれる濃度や透明度、温度、面積などは三属性には含まれません。",
   },
   {
-    id: "q202",
+    id: "q302",
     lesson: "lesson09",
     difficulty: "normal",
     question: "色相環で正反対の位置にある色の関係を何と呼びますか。",
@@ -27,7 +27,7 @@ export const chapter3: Quiz[] = [
       "色相環で正反対に位置する色どうしの関係を補色といいます。類似色は色相環で近い色、純色は最高彩度の色を指すため誤りです。",
   },
   {
-    id: "q203",
+    id: "q303",
     lesson: "lesson09",
     difficulty: "easy",
     question: "色のユニバーサルデザインで最も重視すべき属性の差はどれですか。",
@@ -37,7 +37,7 @@ export const chapter3: Quiz[] = [
       "色覚特性のある人にも区別しやすくするには、色相差や彩度差ではなく明度差を確保することが最も重要です。明度差があれば色相を区別しにくい場合でも見分けやすくなります。",
   },
   {
-    id: "q204",
+    id: "q304",
     lesson: "lesson09",
     difficulty: "easy",
     question: "無彩色について正しい説明はどれですか。",
@@ -52,7 +52,7 @@ export const chapter3: Quiz[] = [
       "無彩色は白・灰・黒のように色みを持たず、彩度が0の色です。色みがある色は有彩色、純色に白を混ぜた色は明清色なので誤りです。",
   },
   {
-    id: "q205",
+    id: "q305",
     lesson: "lesson09",
     difficulty: "easy",
     question: "色みをもち、色相・明度・彩度の三属性をすべてもつ色を何といいますか。",
@@ -62,7 +62,7 @@ export const chapter3: Quiz[] = [
       "有彩色は色みをもち、色相・明度・彩度の三属性をすべてもつ色です。無彩色は白・灰・黒など色みがなく彩度が0の色で、明度のみで区別されます。",
   },
   {
-    id: "q206",
+    id: "q306",
     lesson: "lesson09",
     difficulty: "easy",
     question: "色の三属性のうち、色の鮮やかさ・くすみの度合いを表す属性はどれですか。",
@@ -72,7 +72,7 @@ export const chapter3: Quiz[] = [
       "彩度は色の鮮やかさ・くすみの度合いを表します。純色に近いほど高彩度、灰色に近いほど低彩度です。色相は色みの違い、明度は明るさの度合いを表します。",
   },
   {
-    id: "q209",
+    id: "q307",
     lesson: "lesson09",
     difficulty: "normal",
     question: "色相環で正反対に位置する補色どうしを混ぜ合わせると、どのような色に近づきますか。",
@@ -87,7 +87,7 @@ export const chapter3: Quiz[] = [
       "補色どうしを混ぜると互いの色みが打ち消し合い、無彩色（灰〜黒）に近づきます。一方、補色を並べて使うと互いを引き立て鮮やかに見える補色対比が生じます。",
   },
   {
-    id: "q210",
+    id: "q308",
     lesson: "lesson10",
     difficulty: "normal",
     question:
@@ -98,7 +98,7 @@ export const chapter3: Quiz[] = [
       "マンセルの記法は H V/C で表し、5Rが色相、4が明度、14が彩度を示します。したがって14は彩度を表します。",
   },
   {
-    id: "q211",
+    id: "q309",
     lesson: "lesson10",
     difficulty: "normal",
     question: "マンセル表色系で無彩色を表す記号はどれですか。",
@@ -108,7 +108,7 @@ export const chapter3: Quiz[] = [
       "マンセル表色系では無彩色をNeutralの頭文字Nで表し、N5のように明度を添えて記します。CやVはそれぞれ彩度や明度の値を指す位置に使われるため記号としては誤りです。",
   },
   {
-    id: "q212",
+    id: "q310",
     lesson: "lesson10",
     difficulty: "normal",
     question: "マンセル表色系の中間色相を表す記号として正しいものはどれですか。",
@@ -118,7 +118,7 @@ export const chapter3: Quiz[] = [
       "YR（Yellow-Red、橙）はR（赤）とY（黄）の中間に位置する中間色相です。R・Y・G・B・Pは基本5色相にあたります。中間色相は基本色相2つの記号を組み合わせて表します。",
   },
   {
-    id: "q213",
+    id: "q311",
     lesson: "lesson10",
     difficulty: "hard",
     question: "マンセル表記「N5」が表す色として正しいものはどれですか。",
@@ -133,7 +133,7 @@ export const chapter3: Quiz[] = [
       "NはNeutralの頭文字で無彩色を表し、Nに添えた数値は明度です。N5は明度5の中間グレーを意味します。N0が黒、N10が白で、いずれも彩度をもちません。",
   },
   {
-    id: "q214",
+    id: "q312",
     lesson: "lesson11",
     difficulty: "easy",
     question: "PCCSの最大の特徴とされる、明度と彩度を合わせた色の調子・雰囲気を表す概念はどれですか。",
@@ -143,7 +143,7 @@ export const chapter3: Quiz[] = [
       "トーン（色調）は明度と彩度を合わせた色の調子・雰囲気を表すPCCS独自の概念で、vividやpaleなどがあります。色相は色みの種類、補色は色相環で正反対の2色を指します。",
   },
   {
-    id: "q215",
+    id: "q313",
     lesson: "lesson11",
     difficulty: "hard",
     question:
@@ -154,7 +154,7 @@ export const chapter3: Quiz[] = [
       "PCCSは24色相で構成され、補色は番号が12離れた色になります。2番の補色は2＋12＝14番（青緑）です。8番や20番は12離れていないため誤りです。",
   },
   {
-    id: "q216",
+    id: "q314",
     lesson: "lesson11",
     difficulty: "hard",
     question: "マンセル表色系とPCCSの違いの説明として正しいものはどれですか。",
@@ -169,7 +169,7 @@ export const chapter3: Quiz[] = [
       "マンセルは色を正確に指定・伝達することを目的にJISにも採用された体系で、PCCSは配色教育・実務での使いやすさを重視しトーンの概念をもちます。色相を1〜24で表すのはPCCSです。",
   },
   {
-    id: "q217",
+    id: "q315",
     lesson: "lesson12",
     difficulty: "easy",
     question: "系統色名の説明として正しいものはどれですか。",
@@ -184,7 +184,7 @@ export const chapter3: Quiz[] = [
       "系統色名は、基本色名（赤・黄・青など）に明度・彩度・色相の修飾語を組み合わせて色を体系的に表す方式です。「うすい黄みの赤」のように誰でも理解しやすいのが特徴で、JISで体系が定められています。",
   },
   {
-    id: "q218",
+    id: "q316",
     lesson: "lesson12",
     difficulty: "normal",
     question: "慣用色名の例として最も適切なものはどれですか。",
@@ -199,7 +199,7 @@ export const chapter3: Quiz[] = [
       "慣用色名は、桜色・うぐいす色・コバルトブルーなど、自然物・染料・地名・人名などに由来する固有の名前です。「うすい黄みの赤」「あざやかな緑みの青」のような修飾語を組み合わせた表現は系統色名です。",
   },
   {
-    id: "q219",
+    id: "q317",
     lesson: "lesson12",
     difficulty: "normal",
     question: "色のUDの観点から、色名を付記することが推奨される理由として最も適切なものはどれですか。",
@@ -214,7 +214,7 @@ export const chapter3: Quiz[] = [
       "色名を付記すると、色が見分けにくい人にも文字情報として色を伝えられます。色だけに頼らず色名や記号を併用することは、色のUDの基本的な工夫です。",
   },
   {
-    id: "q220",
+    id: "q318",
     lesson: "lesson12",
     difficulty: "hard",
     question: "JISで定められている基本色名の数について正しいものはどれですか。",

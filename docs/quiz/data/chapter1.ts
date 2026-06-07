@@ -2,7 +2,7 @@ import type { Quiz } from "../types";
 
 export const chapter1: Quiz[] = [
   {
-    id: "q001",
+    id: "q101",
     lesson: "lesson01",
     difficulty: "easy",
     question: "ユニバーサルデザイン（UD）の考え方として最も適切なものはどれですか。",
@@ -16,7 +16,7 @@ export const chapter1: Quiz[] = [
     explanation: "UDは、特定の人だけでなくできるだけ多くの人が使えるよう、はじめから配慮して設計する考え方です。専用設備の後付けや対象を限定する考え方とは異なります。",
   },
   {
-    id: "q002",
+    id: "q102",
     lesson: "lesson01",
     difficulty: "easy",
     question: "ユニバーサルデザインの概念を提唱したとされる人物は誰ですか。",
@@ -30,7 +30,7 @@ export const chapter1: Quiz[] = [
     explanation: "ユニバーサルデザインは、アメリカの建築家ロン・メイスが提唱しました。ニュートンは光の分光、イッテンとマンセルは色彩理論で知られる人物です。",
   },
   {
-    id: "q003",
+    id: "q103",
     lesson: "lesson01",
     difficulty: "normal",
     question: "ユニバーサルデザインとバリアフリーの違いの説明として正しいものはどれですか。",
@@ -44,7 +44,7 @@ export const chapter1: Quiz[] = [
     explanation: "UDは最初から包括的に設計する考え方、バリアフリーは既にある障壁（バリア）を後から取り除く考え方です。両者は対象分野で区別されるわけではありません。",
   },
   {
-    id: "q004",
+    id: "q104",
     lesson: "lesson01",
     difficulty: "hard",
     question: "ユニバーサルデザインの7原則に含まれないものはどれですか。",
@@ -58,7 +58,7 @@ export const chapter1: Quiz[] = [
     explanation: "UDの7原則は、公平な利用、使用の柔軟性、単純で直感的な利用、わかりやすい情報、うっかりミスへの寛容さ、身体的負担の少なさ、利用のための空間確保です。原色のみを使うという原則はありません。",
   },
   {
-    id: "q005",
+    id: "q105",
     lesson: "lesson01",
     difficulty: "normal",
     question: "UDの7原則のうち、色のユニバーサルデザインと最も深く関係する原則はどれですか。",
@@ -72,7 +72,7 @@ export const chapter1: Quiz[] = [
     explanation: "色のUDは、視覚・聴覚・触覚など複数の手段で情報を伝える第4原則（認知できる情報）と最も深く関係します。色だけに頼ると色が見えにくい人に情報が届かないためです。",
   },
   {
-    id: "q007",
+    id: "q106",
     lesson: "lesson02",
     difficulty: "easy",
     question: "色のユニバーサルデザイン（色のUD）の説明として最も適切なものはどれですか。",
@@ -86,7 +86,7 @@ export const chapter1: Quiz[] = [
     explanation: "色のUDとは、色覚の多様性に配慮し、誰もが見やすいように工夫した色使いのことです。色数や流行、白黒化を指すものではありません。",
   },
   {
-    id: "q008",
+    id: "q107",
     lesson: "lesson02",
     difficulty: "normal",
     question: "日本人で色覚特性をもつ人の割合として正しい組み合わせはどれですか。",
@@ -100,7 +100,7 @@ export const chapter1: Quiz[] = [
     explanation: "日本人では男性の約5%（20人に1人）、女性の約0.2%（500人に1人）が色覚特性をもつとされます。男性の割合の方が大きいのが特徴です。",
   },
   {
-    id: "q009",
+    id: "q108",
     lesson: "lesson02",
     difficulty: "normal",
     question: "色の見え方の違い（色覚の多様性）を生む要因として、当てはまらないものはどれですか。",
@@ -114,7 +114,7 @@ export const chapter1: Quiz[] = [
     explanation: "色覚の多様性は、先天性の色覚特性、加齢にともなう水晶体の黄変、白内障などの眼疾患といった視覚に直接かかわる要因から生じます。本人の服装は見え方に影響しません。",
   },
   {
-    id: "q010",
+    id: "q109",
     lesson: "lesson02",
     difficulty: "normal",
     question: "色のUDの略称として正しいものはどれですか。",
@@ -128,7 +128,7 @@ export const chapter1: Quiz[] = [
     explanation: "色のUDはカラーユニバーサルデザイン（Color Universal Design）の略でCUDと表記します。CMYKは印刷の色表現、PCCSは配色体系、WCAGはウェブのアクセシビリティ基準で別の概念です。",
   },
   {
-    id: "q011",
+    id: "q110",
     lesson: "lesson02",
     difficulty: "normal",
     question: "色のUDを実現するアプローチとして適切でないものはどれですか。",
@@ -142,7 +142,7 @@ export const chapter1: Quiz[] = [
     explanation: "色のUDでは配色への配慮、色以外の手段の併用、シミュレーターでの確認が基本です。多くの色で細かく色分けすると、かえって色だけに頼ることになり区別しにくくなります。",
   },
   {
-    id: "q012",
+    id: "q111",
     lesson: "lesson03",
     difficulty: "easy",
     question: "視覚情報のユニバーサルデザインが対象とする人として、適切でないものはどれですか。",
@@ -156,7 +156,7 @@ export const chapter1: Quiz[] = [
     explanation: "視覚情報のUDは、色覚特性者・高齢者・ロービジョンの人・外国人・子ども・さまざまな環境で見る人など、幅広い人を対象とします。一部に限定するのではなく、できるだけ多くの人に情報が伝わる設計を目指します。",
   },
   {
-    id: "q013",
+    id: "q112",
     lesson: "lesson03",
     difficulty: "normal",
     question: "視覚情報のUDで使う「視覚的な手がかり」として、適切でないものはどれですか。",
@@ -170,7 +170,7 @@ export const chapter1: Quiz[] = [
     explanation: "音声は聴覚情報であり視覚情報のUDの直接の手がかりではありません。色・形・記号・文字・配置・明度コントラスト・パターンなどを組み合わせて視覚情報を伝えます。",
   },
   {
-    id: "q014",
+    id: "q113",
     lesson: "lesson03",
     difficulty: "normal",
     question: "色のUDと視覚情報のUDの関係として最も適切なものはどれですか。",
@@ -184,7 +184,7 @@ export const chapter1: Quiz[] = [
     explanation: "色のUDは視覚情報のUDの一部です。色は強力な手がかりですが、色だけに頼ると一部の人に届かないため、形・文字・配置などほかの手がかりと組み合わせて情報を伝えます。",
   },
   {
-    id: "q015",
+    id: "q114",
     lesson: "lesson03",
     difficulty: "hard",
     question: "視覚情報のUDの考え方として最も適切なものはどれですか。",
@@ -198,7 +198,7 @@ export const chapter1: Quiz[] = [
     explanation: "視覚情報のUDは「誰も排除しない設計」を出発点とし、色・形・文字・配置などを冗長に組み合わせて情報を伝えます。1つの手がかりだけでは届かない人が出てしまうためです。専用ページの分離はUDの考え方とは異なります。",
   },
   {
-    id: "q016",
+    id: "q115",
     lesson: "lesson03",
     difficulty: "normal",
     question: "視覚情報のUDをさらに広げて視覚以外の感覚も組み合わせる考え方を何と呼びますか。",
@@ -212,7 +212,7 @@ export const chapter1: Quiz[] = [
     explanation: "マルチモーダル設計は、視覚に加えて聴覚・触覚・振動など複数の感覚で情報を伝える考え方です。音声案内・点字・点字ブロック・スマートフォンの振動などが代表例で、視覚情報が届かない人にも情報を補完できます。",
   },
   {
-    id: "q017",
+    id: "q116",
     lesson: "lesson03",
     difficulty: "easy",
     question: "次のうち、視覚情報のUDが実装された代表例として最も適切なものはどれですか。",

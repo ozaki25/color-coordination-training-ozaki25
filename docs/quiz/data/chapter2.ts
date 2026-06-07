@@ -2,7 +2,7 @@ import type { Quiz } from "../types";
 
 export const chapter2: Quiz[] = [
   {
-    id: "q101",
+    id: "q201",
     lesson: "lesson04",
     difficulty: "easy",
     question: "私たちが色を感じることができるのは、もともと何があるからですか。",
@@ -16,7 +16,7 @@ export const chapter2: Quiz[] = [
     explanation: "色は光から生まれます。光がなければ色を感じることはできません。音や温度、においは色覚とは直接関係しません。",
   },
   {
-    id: "q102",
+    id: "q202",
     lesson: "lesson04",
     difficulty: "normal",
     question: "人が見ることのできる光（可視光線）のおおよその波長の範囲はどれですか。",
@@ -30,7 +30,7 @@ export const chapter2: Quiz[] = [
     explanation: "可視光線の範囲はおよそ380〜780nmです。これより短い波長は紫外線、長い波長は赤外線となり、人の目では見ることができません。",
   },
   {
-    id: "q103",
+    id: "q203",
     lesson: "lesson04",
     difficulty: "normal",
     question: "可視光線の波長と色の関係として正しいものはどれですか。",
@@ -44,7 +44,7 @@ export const chapter2: Quiz[] = [
     explanation: "波長の短い光は紫や青に、波長の長い光は赤に見えます。プリズムで太陽光を分光すると、波長の違いによって色が分かれて見えます。",
   },
   {
-    id: "q104",
+    id: "q204",
     lesson: "lesson04",
     difficulty: "easy",
     question: "色が見えるために必要な3つの要素として正しい組み合わせはどれですか。",
@@ -58,7 +58,7 @@ export const chapter2: Quiz[] = [
     explanation: "色が見えるには、光を発する光源、光を反射・吸収する物体、光を受け取り認識する視覚（目と脳）の3つが必要です。色相・明度・彩度は色の三属性であり別の概念です。",
   },
   {
-    id: "q105",
+    id: "q205",
     lesson: "lesson05",
     difficulty: "easy",
     question: "光源色と物体色の説明として正しいものはどれですか。",
@@ -72,7 +72,7 @@ export const chapter2: Quiz[] = [
     explanation: "光源色は太陽・LED・ネオン管など光源そのものから発される色、物体色はリンゴや葉など物体が光を反射・透過して見える色です。日常で「色」と呼ぶものの多くは物体色です。",
   },
   {
-    id: "q106",
+    id: "q206",
     lesson: "lesson05",
     difficulty: "hard",
     question: "赤いリンゴが赤く見える理由として正しいものはどれですか。",
@@ -86,7 +86,7 @@ export const chapter2: Quiz[] = [
     explanation: "物体の色は、その物体が反射した光の波長によって決まります。赤く見える物体は赤い波長を反射し、それ以外の波長を多く吸収しています。すべて反射すると白く見えます。",
   },
   {
-    id: "q107",
+    id: "q207",
     lesson: "lesson05",
     difficulty: "hard",
     question: "白い紙がほぼ白く見える理由として正しいものはどれですか。",
@@ -100,7 +100,7 @@ export const chapter2: Quiz[] = [
     explanation: "白い物体はほぼすべての波長の光を反射するため白く見えます。逆にほぼすべての波長を吸収すると黒く見えます。物体は基本的に自ら光を発しません。",
   },
   {
-    id: "q108",
+    id: "q208",
     lesson: "lesson05",
     difficulty: "normal",
     question: "分光反射率曲線が表しているものとして、最も適切なものはどれですか。",
@@ -114,7 +114,7 @@ export const chapter2: Quiz[] = [
     explanation: "分光反射率曲線は、物体が各波長の光をどの割合で反射しているかを表すグラフです。物体ごとに固有のパターンをもち、物体色を生み出すしくみを示します。",
   },
   {
-    id: "q109",
+    id: "q209",
     lesson: "lesson05",
     difficulty: "hard",
     question: "同じ物体でも光源が変わると色の見え方が変わる理由として、最も適切なものはどれですか。",
@@ -128,7 +128,7 @@ export const chapter2: Quiz[] = [
     explanation: "物体の分光反射率は変わりませんが、光源の分光分布（含まれる波長の割合）が変わると、反射する光の組成も変わって色が違って見えます。蛍光灯・白熱灯・LEDで物体色が違って見えるのはこのためです。",
   },
   {
-    id: "q110",
+    id: "q210",
     lesson: "lesson06",
     difficulty: "normal",
     question: "眼の中でカメラのレンズのようにピントを調節する役割をもつ部分はどれですか。",
@@ -142,7 +142,7 @@ export const chapter2: Quiz[] = [
     explanation: "水晶体は厚みを変えてピントを調節する、カメラのレンズにあたる部分です。網膜は像が映る部分、瞳孔は光の量を調節し、視神経は信号を脳へ伝えます。",
   },
   {
-    id: "q111",
+    id: "q211",
     lesson: "lesson06",
     difficulty: "easy",
     question: "眼に入った光が像として映る、フィルムやセンサーにあたる部分はどれですか。",
@@ -156,7 +156,7 @@ export const chapter2: Quiz[] = [
     explanation: "網膜は光を受け取り像が映る部分で、カメラのフィルムやセンサーにあたります。網膜の中心付近には視力が最も高い黄斑があります。",
   },
   {
-    id: "q112",
+    id: "q212",
     lesson: "lesson06",
     difficulty: "easy",
     question: "眼に入る光の量を調節する、虹彩の中央にある穴はどれですか。",
@@ -170,7 +170,7 @@ export const chapter2: Quiz[] = [
     explanation: "瞳孔は虹彩の中央にある穴で、明るい場所では小さく、暗い場所では大きくなって光の量を調節します。カメラの絞りにあたります。水晶体はピント調節を担います。",
   },
   {
-    id: "q113",
+    id: "q213",
     lesson: "lesson07",
     difficulty: "normal",
     question: "網膜にある視細胞のうち、色を見分け、明るい場所で働き、黄斑（特に中心窩）に多く分布する細胞はどれですか。",
@@ -184,7 +184,7 @@ export const chapter2: Quiz[] = [
     explanation: "錐体は色を見分ける視細胞で、明るい場所で働き、黄斑に多く集まっています。桿体は明暗を感じ、暗い場所で働き、網膜の周辺部に多く分布します。",
   },
   {
-    id: "q114",
+    id: "q214",
     lesson: "lesson07",
     difficulty: "normal",
     question: "暗い場所で主に働き、明暗を感じるが色は識別しない視細胞はどれですか。",
@@ -198,7 +198,7 @@ export const chapter2: Quiz[] = [
     explanation: "桿体は暗い場所（暗所視）で主に働き、明暗を感じますが色は識別しません。網膜の周辺部に多く分布します。錐体は明るい場所で色を識別する視細胞です。",
   },
   {
-    id: "q115",
+    id: "q215",
     lesson: "lesson07",
     difficulty: "normal",
     question: "明るさによる視環境の分類のうち、夕暮れ時など錐体と桿体の両方が働く中間の明るさを何といいますか。",
@@ -212,7 +212,7 @@ export const chapter2: Quiz[] = [
     explanation: "薄明視は明所視と暗所視の中間の明るさで、錐体と桿体の両方が働きます。プルキニェ現象が起きやすい環境です。明所視は明るい場所、暗所視は暗い場所での視環境です。",
   },
   {
-    id: "q116",
+    id: "q216",
     lesson: "lesson07",
     difficulty: "normal",
     question: "プルキニェ現象の説明として正しいものはどれですか。",
@@ -226,7 +226,7 @@ export const chapter2: Quiz[] = [
     explanation: "プルキニェ現象は、明所視では赤系が明るく見え、暗所視へ移行すると桿体が主に働き青緑系が相対的に明るく見える現象です。暗所では色そのものは識別しにくくなります。",
   },
   {
-    id: "q117",
+    id: "q217",
     lesson: "lesson08",
     difficulty: "easy",
     question: "一般的な人間が3種類の錐体をもつ色覚を何と呼びますか。",
@@ -240,7 +240,7 @@ export const chapter2: Quiz[] = [
     explanation: "一般的な人間はS・M・Lの3種類の錐体をもち、3色型色覚（トリクロマシー）と呼ばれます。色覚分類ではC型色覚（Common type）とも呼ばれ、日本人の大多数がこれにあたります。",
   },
   {
-    id: "q118",
+    id: "q218",
     lesson: "lesson08",
     difficulty: "hard",
     question: "3色型色覚（C型）の錐体と感じる色の対応として正しいものはどれですか。",
@@ -254,7 +254,7 @@ export const chapter2: Quiz[] = [
     explanation: "S錐体は短波長で青系、M錐体は中波長で緑系、L錐体は長波長で赤〜黄系を主に感じます。色覚特性ではP型がL錐体、D型がM錐体、T型がS錐体に関わります。",
   },
   {
-    id: "q119",
+    id: "q219",
     lesson: "lesson08",
     difficulty: "normal",
     question: "ヤング・ヘルムホルツの三色説の説明として最も適切なものはどれですか。",
@@ -268,7 +268,7 @@ export const chapter2: Quiz[] = [
     explanation: "三色説（ヤング・ヘルムホルツ説）は、色覚が3種類の受容器（S・M・L錐体）の刺激比率で成り立つとする説です。網膜の錐体レベルで成立し、現在の色覚理解の基礎になっています。",
   },
   {
-    id: "q120",
+    id: "q220",
     lesson: "lesson08",
     difficulty: "normal",
     question: "ヘリングの反対色説（対立色説）が説明する色のペアの組み合わせとして正しいものはどれですか。",
@@ -282,7 +282,7 @@ export const chapter2: Quiz[] = [
     explanation: "反対色説は、赤緑・青黄・白黒の3組の対立する反応で色覚が成り立つとする説です。網膜から脳に至る神経処理の段階を説明します。現在は三色説（錐体段階）と反対色説（神経処理段階）が補完的に成り立つと理解されています。",
   },
   {
-    id: "q121",
+    id: "q221",
     lesson: "lesson08",
     difficulty: "normal",
     question: "色覚タイプと機能しにくい錐体の対応として正しいものはどれですか。",

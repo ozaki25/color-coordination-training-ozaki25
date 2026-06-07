@@ -2,7 +2,7 @@ import type { Quiz } from "../types";
 
 export const chapter6: Quiz[] = [
   {
-    id: "q501",
+    id: "q601",
     lesson: "lesson25",
     difficulty: "easy",
     question: "色の機能的役割と情緒的役割について、UC級で特に重要とされるのはどちらですか。",
@@ -16,7 +16,7 @@ export const chapter6: Quiz[] = [
     explanation: "色には機能的役割（誘目性・視認性・明視性・可読性・識別性など情報を伝える働き）と情緒的役割（感情やイメージ）があり、UC級では情報を正しく伝える機能的役割が特に重要とされます。",
   },
   {
-    id: "q502",
+    id: "q602",
     lesson: "lesson25",
     difficulty: "normal",
     question: "色の機能的役割のうち、注意を向けたときの対象の「見つけやすさ」を表すものはどれですか。",
@@ -30,7 +30,7 @@ export const chapter6: Quiz[] = [
     explanation: "視認性は注意を向けたときの対象の見つけやすさを表します。誘目性は意識しなくても注意を引く力、明視性は見つけた対象の内容のわかりやすさ、識別性は複数のものを区別しやすさです。",
   },
   {
-    id: "q532",
+    id: "q603",
     lesson: "lesson25",
     difficulty: "hard",
     question: "対象を見つけたあとに、その形や内容を理解しやすい力を表す機能的役割はどれですか。",
@@ -44,7 +44,7 @@ export const chapter6: Quiz[] = [
     explanation: "明視性は、見つけた対象の形や内容を理解しやすい力です。視認性が「見つけやすさ」であるのに対し、明視性は「見つけた後のわかりやすさ」を表します。ピクトグラムや地図記号のように、形がはっきり読み取れることが明視性にあたります。",
   },
   {
-    id: "q503",
+    id: "q604",
     lesson: "lesson25",
     difficulty: "easy",
     question: "文字や細かい情報が読み取りやすい力を表す機能的役割はどれですか。",
@@ -58,7 +58,7 @@ export const chapter6: Quiz[] = [
     explanation: "可読性は文字や図形など細かい情報の読み取りやすさを表します。誘目性は注意の引きやすさ、彩度は色の三属性のひとつで機能的役割ではありません。",
   },
   {
-    id: "q504",
+    id: "q605",
     lesson: "lesson25",
     difficulty: "normal",
     question: "色の誘目性を高める要素として最も適切なものはどれですか。",
@@ -72,7 +72,7 @@ export const chapter6: Quiz[] = [
     explanation: "誘目性は注意を引きつける力で、彩度が高い赤・橙・黄などの暖色系が特に強くなります。明度差を小さくすると視認性・可読性が下がり、誘目性は高まりません。",
   },
   {
-    id: "q505",
+    id: "q606",
     lesson: "lesson25",
     difficulty: "hard",
     question: "複数の路線を色で区別する路線図に最も関係が深い機能的役割と、その配慮として正しい組み合わせはどれですか。",
@@ -86,7 +86,7 @@ export const chapter6: Quiz[] = [
     explanation: "複数の要素を区別する力は識別性です。色だけで区別すると色覚特性者には伝わらないため、記号や路線番号など色以外の手段を併記することが重要です。",
   },
   {
-    id: "q506",
+    id: "q607",
     lesson: "lesson25",
     difficulty: "easy",
     question: "コーポレートカラーのように、企業のイメージを伝えるために色を使うことは、色のどの役割にあたりますか。",
@@ -100,7 +100,7 @@ export const chapter6: Quiz[] = [
     explanation: "感情・印象・イメージを伝えるのは情緒的役割です。コーポレートカラーはブランドの印象づくりに使われるため情緒的役割にあたります。機能的役割は情報を正確に伝える働きです。",
   },
   {
-    id: "q507",
+    id: "q608",
     lesson: "lesson26",
     difficulty: "normal",
     question: "色のUD設計の5ステップの順序として、正しいものはどれですか。",
@@ -114,7 +114,7 @@ export const chapter6: Quiz[] = [
     explanation: "色のUD設計は、現状把握→問題の洗い出し→改善案策定→シミュレーション確認→実施・評価の5ステップで進め、さらに継続的に改善します。把握と問題抽出を先に行い、改善・確認・評価へと進みます。",
   },
   {
-    id: "q508",
+    id: "q609",
     lesson: "lesson26",
     difficulty: "easy",
     question: "色のUDを取り入れるタイミングについて、最も適切な説明はどれですか。",
@@ -128,7 +128,7 @@ export const chapter6: Quiz[] = [
     explanation: "設計の初期段階から色のUDを組み込むほど、後からの大きな手戻りが減り低コストで対応できます。完成後の対応は手戻りが大きく、また実施後も継続的な見直しが必要です。",
   },
   {
-    id: "q509",
+    id: "q610",
     lesson: "lesson26",
     difficulty: "normal",
     question: "UD設計の5ステップの最初「現状把握」で行うこととして、最も適切なものはどれですか。",
@@ -142,7 +142,7 @@ export const chapter6: Quiz[] = [
     explanation: "現状把握では、使っている色の組み合わせを一覧化し、色だけで情報を伝えている箇所を洗い出します。シミュレーション確認や実施・適用、当事者評価はあとのステップで行います。",
   },
   {
-    id: "q510",
+    id: "q611",
     lesson: "lesson26",
     difficulty: "hard",
     question: "UD設計の「改善案策定」のステップでの進め方として、最も適切なものはどれですか。",
@@ -156,7 +156,7 @@ export const chapter6: Quiz[] = [
     explanation: "改善案は1案に絞らず複数を並べて比較すると、より良い選択ができます。ブランドカラーの変更が難しい場合などは色以外の手がかりを加える案が現実的になるため、色変更と手がかり追加の両方を検討します。",
   },
   {
-    id: "q512",
+    id: "q612",
     lesson: "lesson27",
     difficulty: "normal",
     question: "色覚シミュレーションツール（Chromatic Vision Simulatorなど）の説明として、正しいものはどれですか。",
@@ -170,7 +170,7 @@ export const chapter6: Quiz[] = [
     explanation: "シミュレーションツールはC型の人がP型・D型などの見え方を体験できるものです。ただし見え方は近似であり、最終的には当事者へのヒアリングで確認することが大切です。自動補正や聴力体験のツールではありません。",
   },
   {
-    id: "q513",
+    id: "q613",
     lesson: "lesson27",
     difficulty: "hard",
     question: "色覚シミュレーションツールの位置づけとして、最も適切なものはどれですか。",
@@ -184,7 +184,7 @@ export const chapter6: Quiz[] = [
     explanation: "シミュレーションはあくまで近似であり、最終的には当事者へのヒアリングで確認することが望ましいです。コントラストチェッカーは明度差・コントラスト比の確認に有効で、シミュレーションと併用します。",
   },
   {
-    id: "q514",
+    id: "q614",
     lesson: "lesson27",
     difficulty: "normal",
     question: "2色のコントラスト比を数値で確認したい場合に適したツールはどれですか。",
@@ -198,7 +198,7 @@ export const chapter6: Quiz[] = [
     explanation: "コントラスト比を数値で確認するには、WebAIM Contrast CheckerやColour Contrast Analyserなどのコントラストチェッカーを使います。これらはWCAG基準を満たすかを判定できます。読み上げソフトや翻訳アプリは用途が異なります。",
   },
   {
-    id: "q515",
+    id: "q615",
     lesson: "lesson27",
     difficulty: "normal",
     question: "配色が色覚に配慮できているかを手軽に確認する方法として、最も適切なものはどれですか。",
@@ -212,7 +212,7 @@ export const chapter6: Quiz[] = [
     explanation: "白黒変換すると色相や彩度の情報が失われ、明度差だけが残ります。これで区別できれば多くの色覚タイプで識別しやすい配色といえます。彩度を上げたり色数を増やすことは確認方法になりません。",
   },
   {
-    id: "q516",
+    id: "q616",
     lesson: "lesson27",
     difficulty: "normal",
     question: "色のUDを実践する姿勢として、最も適切なものはどれですか。",
@@ -226,7 +226,7 @@ export const chapter6: Quiz[] = [
     explanation: "色のUDは完璧を一度に目指すとハードルが高くなりがちです。明らかな問題を1つ解決するなど、できる改善を積み重ね継続的に見直す姿勢が大切です。一度で終わりにせず、美しさと情報の伝わりやすさは両立を目指します。",
   },
   {
-    id: "q517",
+    id: "q617",
     lesson: "lesson28",
     difficulty: "easy",
     question: "色のユニバーサルデザイン配色の基本原則として、適切でないものはどれですか。",
@@ -240,7 +240,7 @@ export const chapter6: Quiz[] = [
     explanation: "色のUDでは色だけに頼らず、明度差の確保や色以外の手がかりの併用、見分けにくい組み合わせを避けることが基本です。多くの色だけで区別するのは色覚特性のある人に伝わりにくく不適切です。",
   },
   {
-    id: "q518",
+    id: "q618",
     lesson: "lesson28",
     difficulty: "normal",
     question: "色のUD設計で配色を「グレースケール変換」して確認する主な目的はどれですか。",
@@ -254,7 +254,7 @@ export const chapter6: Quiz[] = [
     explanation: "グレースケール変換は、色相情報を取り除いて明度差だけが残った状態を再現します。色覚特性者や白黒印刷でも区別がつくかを確認する、色のUD設計で重要なチェック手段です。",
   },
   {
-    id: "q519",
+    id: "q619",
     lesson: "lesson28",
     difficulty: "normal",
     question: "色相環で離れている赤と緑の組み合わせについて、色のUDの観点から正しい説明はどれですか。",
@@ -268,7 +268,7 @@ export const chapter6: Quiz[] = [
     explanation: "赤と緑は色相環では離れていますが、P型（1型）・D型（2型）の色覚では区別が難しい代表的な組み合わせです。明度も近くなりやすく、白黒にすると見分けにくくなることがあります。",
   },
   {
-    id: "q520",
+    id: "q620",
     lesson: "lesson28",
     difficulty: "hard",
     question: "WCAG AAが求めるコントラスト比について、正しい組み合わせはどれですか。",
@@ -282,7 +282,7 @@ export const chapter6: Quiz[] = [
     explanation: "WCAG AAでは標準的な文字に4.5:1以上、大きな文字や図形に3:1以上のコントラスト比を求めます。黒と白の組み合わせが最大の21:1です。",
   },
   {
-    id: "q521",
+    id: "q621",
     lesson: "lesson28",
     difficulty: "easy",
     question: "色以外の手がかりを加える方法として、適切でないものはどれですか。",
@@ -296,7 +296,7 @@ export const chapter6: Quiz[] = [
     explanation: "色を鮮やかにするのは色の情報を強めるだけで、色以外の手がかりにはなりません。形、パターンやハッチング、テキスト、位置などを加えることが色以外の手がかりとして有効です。",
   },
   {
-    id: "q522",
+    id: "q622",
     lesson: "lesson28",
     difficulty: "normal",
     question: "グラフを色のUDに配慮して作成する方法として、最も適切なものはどれですか。",
@@ -310,7 +310,7 @@ export const chapter6: Quiz[] = [
     explanation: "グラフは色だけに頼らず、模様（ハッチング）や直接ラベルを付けることで誰にでも区別しやすくなります。赤緑のみの塗り分けや色だけの凡例、似た色の多用は見分けにくく不適切です。",
   },
   {
-    id: "q523",
+    id: "q623",
     lesson: "lesson28",
     difficulty: "normal",
     question: "電車の路線図を色のUDに配慮して改善する方法として、最も適切なものはどれですか。",
@@ -324,7 +324,7 @@ export const chapter6: Quiz[] = [
     explanation: "路線図は色だけに頼らず、各路線に路線番号（記号）や路線名のテキストを付けると、色が区別できない人でも路線を特定できます。似た色相での塗り分けや薄い色の使用は見分けにくく不適切です。",
   },
   {
-    id: "q524",
+    id: "q624",
     lesson: "lesson28",
     difficulty: "easy",
     question: "折れ線グラフを白黒印刷でも区別できるようにする改善方法として、最も適切なものはどれですか。",
@@ -338,7 +338,7 @@ export const chapter6: Quiz[] = [
     explanation: "実線・破線・点線と線種を変えたり、○△□などのマーカーを加えると、色が再現されない白黒印刷でも系列を区別できます。同色・同線種にそろえたり薄いグレーにそろえると、かえって見分けにくくなります。",
   },
   {
-    id: "q525",
+    id: "q625",
     lesson: "lesson28",
     difficulty: "easy",
     question: "Webページのリンクを本文と区別する方法として、UD・WCAGの観点から最も適切なものはどれですか。",
@@ -352,7 +352,7 @@ export const chapter6: Quiz[] = [
     explanation: "色だけでリンクを示すと色覚特性のある人には本文と区別がつきにくくなります。WCAGでは色以外の手がかり（下線など）が必要とされ、青色＋下線のように色と下線を組み合わせるのが適切です。",
   },
   {
-    id: "q526",
+    id: "q626",
     lesson: "lesson28",
     difficulty: "normal",
     question: "カラーユニバーサルデザイン推奨配色セットの構成として正しいものはどれですか。",
@@ -366,7 +366,7 @@ export const chapter6: Quiz[] = [
     explanation: "NPO法人CUDOが制定したカラーユニバーサルデザイン推奨配色セットは、アクセント9色＋ベース7色＋無彩色4色の合計20色で構成されます。",
   },
   {
-    id: "q527",
+    id: "q627",
     lesson: "lesson28",
     difficulty: "normal",
     question: "推奨配色セットのアクセントカラーの使い方として最も適切なものはどれですか。",
@@ -380,7 +380,7 @@ export const chapter6: Quiz[] = [
     explanation: "アクセントカラーは高彩度であり、文字・線・マーカーなど比較的小さな面積に用いるのが適切です。広い面積に高彩度を敷き詰めると目が疲れたり、文字が読みにくくなったりするため、広い面積にはベースカラー（高明度・低彩度）を使います。",
   },
   {
-    id: "q528",
+    id: "q628",
     lesson: "lesson28",
     difficulty: "normal",
     question: "推奨配色セットのベースカラーの特徴として正しいものはどれですか。",
@@ -394,7 +394,7 @@ export const chapter6: Quiz[] = [
     explanation: "ベースカラーは高明度・低彩度で、背景や塗りつぶしなど広い面積に使うのに適しています。高明度低彩度なのでアクセントカラーを上に乗せても見分けやすくなります。明るいピンク・クリーム・明るい黄緑などが含まれます。",
   },
   {
-    id: "q531",
+    id: "q629",
     lesson: "lesson28",
     difficulty: "hard",
     question: "配色の修正4ポイント（色相変更・明度変更・彩度変更・色以外の手がかり追加）の使い分けとして、最も適切なものはどれですか。",
