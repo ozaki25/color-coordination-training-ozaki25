@@ -49,12 +49,6 @@ const selectedDisplayIndex = ref<number | null>(
   toDisplayIndex(props.initialSelectedIndex ?? null)
 )
 const answered = ref(props.initialAnswered ?? false)
-const questionEl = ref<HTMLElement | null>(null)
-
-// 次の問題へ進んだとき、選択肢ボタンではなく問題文にフォーカスを移す。
-// 選択肢にフォーカスすると Enter（「次へ」のつもり）でそのボタンが発火し、
-// 未回答の選択肢Aが誤答として確定してしまうため、非ボタン要素を対象にする。
-defineExpose({ focusQuestion: () => questionEl.value?.focus() })
 
 function select(displayI: number) {
   if (answered.value) return
@@ -131,7 +125,7 @@ const effectiveCorrect = computed(() => {
       </span>
     </div>
 
-    <p ref="questionEl" tabindex="-1" class="quiz-question" v-html="renderText(quiz.question)" />
+    <p class="quiz-question" v-html="renderText(quiz.question)" />
 
     <ol class="quiz-choices" aria-label="選択肢">
       <li v-for="(choice, i) in displayChoices" :key="displayOrder[i]">
@@ -229,11 +223,6 @@ const effectiveCorrect = computed(() => {
   line-height: 1.6;
   margin: 0 0 1rem;
   color: var(--vp-c-text-1);
-}
-
-/* プログラム的に focus する要素なので、フォーカスリングは出さない */
-.quiz-question:focus {
-  outline: none;
 }
 
 .quiz-choices {
