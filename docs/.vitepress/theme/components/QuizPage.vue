@@ -162,6 +162,15 @@ const finished = ref(false)
 const resumedFrom = ref(0)
 const savedToastShown = ref(false)
 const showSavedToast = ref(false)
+let savedToastTimer: ReturnType<typeof setTimeout> | null = null
+
+function dismissSavedToast() {
+  showSavedToast.value = false
+  if (savedToastTimer) {
+    clearTimeout(savedToastTimer)
+    savedToastTimer = null
+  }
+}
 
 const currentQuiz = computed<Quiz | null>(() => orderedQuizzes.value[currentIndex.value] ?? null)
 
@@ -191,7 +200,10 @@ function onAnswered(quizId: string, correct: boolean, selectedIndex: number) {
   if (!savedToastShown.value) {
     savedToastShown.value = true
     showSavedToast.value = true
-    setTimeout(() => { showSavedToast.value = false }, 2500)
+    if (savedToastTimer) clearTimeout(savedToastTimer)
+    // WCAG 2.2.1（タイミング調整可能）の趣旨に従い、十分に読める時間を確保。
+    // 閉じるボタンでも即時消去できる。
+    savedToastTimer = setTimeout(() => { showSavedToast.value = false }, 10000)
   }
 }
 
@@ -353,8 +365,14 @@ onUnmounted(() => window.removeEventListener('keydown', handlePageKeydown))
       <div v-if="resumedFrom > 0" class="quiz-resume-toast" role="status">
         前回の続き、{{ resumedFrom }} 問目から再開しました
       </div>
-      <div v-if="showSavedToast" class="quiz-saved-toast" role="status">
-        ✓ 回答を自動保存しました（途中で閉じても続きから再開できます）
+      <div v-if="showSavedToast" class="quiz-saved-toast" role="status" aria-live="polite">
+        <span class="quiz-saved-toast-text">✓ 回答を自動保存しました（途中で閉じても続きから再開できます）</span>
+        <button
+          type="button"
+          class="quiz-saved-toast-close"
+          aria-label="通知を閉じる"
+          @click="dismissSavedToast"
+        >×</button>
       </div>
       <div class="quiz-progress-bar-wrap" role="progressbar" aria-valuemin="0" :aria-valuenow="answeredCount" :aria-valuemax="orderedQuizzes.length">
         <div class="quiz-progress-bar" :style="{ width: progress + '%' }" />
@@ -514,20 +532,59 @@ onUnmounted(() => window.removeEventListener('keydown', handlePageKeydown))
 }
 
 .quiz-saved-toast {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   margin-bottom: 0.75rem;
   padding: 0.5rem 0.85rem;
   background: #f0fdf4;
   color: #166534;
   border-left: 3px solid #16a34a;
   border-radius: 4px;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   animation: fadeIn 0.2s ease-out;
+}
+
+.quiz-saved-toast-text {
+  flex: 1;
+}
+
+.quiz-saved-toast-close {
+  flex-shrink: 0;
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0.1rem 0.5rem;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.quiz-saved-toast-close:hover,
+.quiz-saved-toast-close:focus-visible {
+  opacity: 1;
+  background: rgba(22, 163, 74, 0.1);
+}
+
+.quiz-saved-toast-close:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
 .dark .quiz-saved-toast {
   background: #052e16;
   color: #86efac;
   border-left-color: #16a34a;
+}
+
+.dark .quiz-saved-toast-close:hover,
+.dark .quiz-saved-toast-close:focus-visible {
+  background: rgba(22, 163, 74, 0.2);
 }
 
 @keyframes fadeIn {
