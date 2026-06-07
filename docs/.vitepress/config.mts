@@ -40,9 +40,10 @@ export default withPwa(
           lineColor: "#475569",
           fontFamily: "sans-serif",
         },
-        flowchart: {
-          htmlLabels: false,
-        },
+        // HTMLラベル(デフォルト)を使い、CJK文字の高さ計算はブラウザに委ねる。
+        // SVG textで描く `htmlLabels: false` では `\n` を超える折り返しが
+        // rect の高さに反映されず最終行が切れることがあるため、custom.cssで
+        // foreignObject の overflow を visible にして補完する。
       },
       markdown: {
         config(md) {
