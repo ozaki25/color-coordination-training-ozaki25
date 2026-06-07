@@ -9,7 +9,11 @@
     .t-muted { fill: #94a3b8; }
     .axis { stroke: #475569; }
     .grid { stroke: #e2e8f0; }
+    /* トーンラベルは色サンプル上に乗る。箱の色はテーマで変わらないため、
+       ラベルの配色（縁取り・文字色）もテーマに依存させない。
+       明るい箱=濃い文字＋白縁取り / 暗い箱=白文字＋濃い縁取り */
     .tone-label-stroke { stroke: #ffffff; }
+    .tone-label-stroke-dark { stroke: #1e293b; }
     @media (prefers-color-scheme: dark) {
       .bg { fill: #1f1f1f; }
       .t-h1 { fill: #e2e8f0; }
@@ -18,7 +22,6 @@
       .t-muted { fill: #64748b; }
       .axis { stroke: #94a3b8; }
       .grid { stroke: #333333; }
-      .tone-label-stroke { stroke: #1f1f1f; }
     }
   </style>
   <rect class="bg" width="720" height="480"/>
@@ -61,16 +64,16 @@
   <!-- grayish (中明度、最低彩度) -->
   <g><rect x="160" y="220" width="80" height="50" rx="6" fill="#9a8989" stroke="#94a3b8"/><text x="200" y="252" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#1e293b">grayish</text></g>
   <!-- dull (中明度、中低彩度) -->
-  <g><rect x="320" y="240" width="80" height="50" rx="6" fill="#b06b6b" stroke="#94a3b8"/><text x="360" y="272" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">dull</text></g>
+  <g><rect x="320" y="240" width="80" height="50" rx="6" fill="#b06b6b" stroke="#94a3b8"/><text x="360" y="272" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke-dark" stroke-width="2.5" fill="#ffffff">dull</text></g>
   <!-- strong (中明度、高彩度) -->
-  <g><rect x="520" y="220" width="80" height="50" rx="6" fill="#cd3030" stroke="#94a3b8"/><text x="560" y="252" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">strong</text></g>
+  <g><rect x="520" y="220" width="80" height="50" rx="6" fill="#cd3030" stroke="#94a3b8"/><text x="560" y="252" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke-dark" stroke-width="2.5" fill="#ffffff">strong</text></g>
   <!-- vivid (中-高明度、最高彩度) -->
-  <g><rect x="600" y="170" width="80" height="50" rx="6" fill="#e60000" stroke="#94a3b8"/><text x="640" y="202" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">vivid</text></g>
+  <g><rect x="600" y="170" width="80" height="50" rx="6" fill="#e60000" stroke="#94a3b8"/><text x="640" y="202" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke-dark" stroke-width="2.5" fill="#ffffff">vivid</text></g>
 
   <!-- dark grayish (低明度、最低彩度) -->
-  <g><rect x="160" y="340" width="80" height="50" rx="6" fill="#544242" stroke="#94a3b8"/><text x="200" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">dark gr.</text></g>
+  <g><rect x="160" y="340" width="80" height="50" rx="6" fill="#544242" stroke="#94a3b8"/><text x="200" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke-dark" stroke-width="2.5" fill="#ffffff">dark gr.</text></g>
   <!-- dark (低明度、中低彩度) -->
-  <g><rect x="320" y="340" width="80" height="50" rx="6" fill="#6e2828" stroke="#94a3b8"/><text x="360" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">dark</text></g>
+  <g><rect x="320" y="340" width="80" height="50" rx="6" fill="#6e2828" stroke="#94a3b8"/><text x="360" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke-dark" stroke-width="2.5" fill="#ffffff">dark</text></g>
   <!-- deep (低-中明度、高彩度) -->
-  <g><rect x="520" y="320" width="80" height="50" rx="6" fill="#a82020" stroke="#94a3b8"/><text x="560" y="352" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke" stroke-width="2.5" fill="#ffffff">deep</text></g>
+  <g><rect x="520" y="320" width="80" height="50" rx="6" fill="#a82020" stroke="#94a3b8"/><text x="560" y="352" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" paint-order="stroke" class="tone-label-stroke-dark" stroke-width="2.5" fill="#ffffff">deep</text></g>
 </svg>
