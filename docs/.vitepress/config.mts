@@ -204,7 +204,22 @@ export default withPwa(
         },
         workbox: {
           maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
-          globPatterns: ["**/*.{js,css,html,woff2,png,svg,ico,webp,json}"],
+          // HTML を precache から除外（CacheFirst で古い HTML が返り続けるのを防ぐ）
+          globPatterns: ["**/*.{js,css,woff2,png,svg,ico,webp,json}"],
+          navigateFallback: null,
+          runtimeCaching: [
+            {
+              // ページ遷移（HTML）は NetworkFirst で常に最新を取りに行く
+              urlPattern: ({ request }) => request.mode === "navigate",
+              handler: "NetworkFirst",
+              options: {
+                cacheName: "uc-html",
+                networkTimeoutSeconds: 5,
+                expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 7 },
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
+          ],
         },
       },
     }),
