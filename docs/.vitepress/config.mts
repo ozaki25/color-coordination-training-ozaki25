@@ -206,6 +206,9 @@ export default withPwa(
           maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
           // HTML を precache から除外（CacheFirst で古い HTML が返り続けるのを防ぐ）
           globPatterns: ["**/*.{js,css,woff2,png,svg,ico,webp,json}"],
+          // 図版（/diagrams/）は precache しない。差し替え後も古い画像が
+          // 返り続けるのを防ぎ、下の runtimeCaching で最新を取りに行く。
+          globIgnores: ["**/diagrams/**"],
           navigateFallback: null,
           runtimeCaching: [
             {
@@ -216,6 +219,16 @@ export default withPwa(
                 cacheName: "uc-html",
                 networkTimeoutSeconds: 5,
                 expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 7 },
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
+            {
+              // 図版は StaleWhileRevalidate（即表示＋裏で最新に更新）
+              urlPattern: ({ url }) => url.pathname.startsWith("/diagrams/"),
+              handler: "StaleWhileRevalidate",
+              options: {
+                cacheName: "uc-diagrams",
+                expiration: { maxEntries: 60, maxAgeSeconds: 60 * 60 * 24 * 30 },
                 cacheableResponse: { statuses: [0, 200] },
               },
             },
