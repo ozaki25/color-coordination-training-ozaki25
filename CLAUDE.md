@@ -154,6 +154,7 @@ scripts/quiz-validate.mjs      ドリルデータの検証スクリプト
 npm run docs:dev       # ローカル開発サーバー
 npm run docs:build     # 本番ビルド（Vercel と同じ）
 npm run docs:lint      # textlint で日本語を校正
+npm run docs:style     # CLAUDE.md の執筆ルールを機械チェック
 npm run quiz:validate  # ドリルデータの検証
 npm run pwa:icons      # logo.svg から PWA アイコンを生成
 ```
@@ -163,5 +164,22 @@ npm run pwa:icons      # logo.svg から PWA アイコンを生成
 レッスンやドリルを変更したら、コミット前に最低限これらを通す。
 
 - `npm run docs:lint` がエラーなしで通る
+- `npm run docs:style` がエラーなしで通る
 - `npm run docs:build` が成功する
 - ドリルを触ったら `npm run quiz:validate` も通る
+
+これらは GitHub Actions（`.github/workflows/build.yml`）でも main と PR で自動実行され、違反があればマージ前に止まる。
+
+## 執筆ルールの自動チェック（`npm run docs:style`）
+
+`scripts/style-check.mjs` が、この CLAUDE.md のルールのうち機械的に検出できるものを検査する（再発防止）。検出対象:
+
+- **禁止用語**: 「色盲」「色弱」「弱視」
+- **AI生成感のある文体**: 「なぜでしょうか。それは…」「…の正体です」など問いかけ+即答・ドラマチックな締め
+- **話しかけ調の見出し**: 「〜しよう」「〜してみる」などで終わる見出し・admonition タイトル
+- **em dash（——）の本文使用**
+- **セクション区切りの水平線（`---`）**
+- **「公式テキストに対応／準拠」という表記**
+- **Mermaid ラベル内の `<br>`**（`\n` を使う）
+
+正当な例外（歴史的呼称の説明で「色盲」に触れる等）は、その行の末尾に `<!-- style-ok: 理由 -->` を付けると除外できる。新しいルールを足したいときは `RULES` 配列に追加する。

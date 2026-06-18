@@ -29,6 +29,9 @@ jobs:
       - name: Lint docs (textlint)
         run: npm run docs:lint
 
+      - name: Style check (CLAUDE.md ルール)
+        run: npm run docs:style
+
       - name: Validate quiz data
         run: npm run quiz:validate
 

@@ -9,6 +9,7 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:lint": "textlint \"docs/**/*.md\"",
+    "docs:style": "node scripts/style-check.mjs",
     "quiz:validate": "node scripts/quiz-validate.mjs",
     "pwa:icons": "pwa-assets-generator"
   },
